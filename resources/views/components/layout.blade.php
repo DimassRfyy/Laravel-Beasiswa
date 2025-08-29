@@ -169,6 +169,38 @@
         .article-card.hidden {
             display: none;
         }
+
+        .article-content h2 {
+            @apply text-2xl font-bold text-gray-800 mt-8 mb-4;
+        }
+
+        .article-content h3 {
+            @apply text-xl font-semibold text-gray-800 mt-6 mb-3;
+        }
+
+        .article-content p {
+            @apply text-gray-700 leading-relaxed mb-4;
+        }
+
+        .article-content ul {
+            @apply list-disc list-inside text-gray-700 mb-4 space-y-2;
+        }
+
+        .article-content li {
+            @apply ml-4;
+        }
+
+        .article-content blockquote {
+            @apply border-l-4 border-pink-500 pl-4 italic text-gray-600 my-6;
+        }
+
+        .share-button {
+            transition: all 0.3s ease;
+        }
+
+        .share-button:hover {
+            transform: translateY(-2px);
+        }
     </style>
 
     @stack('styles')
@@ -299,6 +331,55 @@
             };
             return categoryNames[category] || category;
         }
+
+        // Share functionality
+        function copyLink() {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                // Show success message
+                const button = event.target.closest('button');
+                const originalHTML = button.innerHTML;
+                button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-green-600"><path d="M20 6 9 17l-5-5"/></svg>';
+
+                setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy link: ', err);
+            });
+        }
+
+        function shareToFacebook() {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${title}`;
+            window.open(shareUrl, '_blank', 'width=600,height=400');
+        }
+
+        function shareToInstagram() {
+            // Instagram doesn't have direct URL sharing, so we'll copy the link and show a message
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Link telah disalin! Anda dapat membagikannya di Instagram Stories atau Bio.');
+            }).catch(err => {
+                console.error('Failed to copy link: ', err);
+                alert('Silakan salin link secara manual: ' + url);
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
     </script>
 </body>
 

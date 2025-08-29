@@ -13,7 +13,7 @@
                             Cerita & Inspirasi
                         </h1>
                         <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-                            Ikuti perjalanan program beasiswa SalonKita, kisah sukses alumni, dan tips karir di industri
+                            Ikuti perjalanan program beasiswa WMM Foundation, kisah sukses alumni, dan tips karir di industri
                             kecantikan.
                         </p>
 

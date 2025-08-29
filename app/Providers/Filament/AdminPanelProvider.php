@@ -30,8 +30,10 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->login()
             ->font('Nunito')
+            ->profile(isSimple: false)
+            ->brandName('WMM Foundation')
             ->colors([
-                'primary' => '#831843',
+                'primary' => '#FF4D9E',
             ])
             ->navigationItems([
             NavigationItem::make('Back to Website')

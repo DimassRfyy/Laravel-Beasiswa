@@ -12,3 +12,4 @@ Route::get('/mentor', [FrontController::class, 'mentor'])->name('mentor');
 Route::get('/coach', [FrontController::class, 'coach'])->name('coach');
 Route::get('/donation', [FrontController::class, 'donation'])->name('donation');
 Route::get('/blog', [FrontController::class, 'blog'])->name('blog');
+Route::get('/blog/example', [FrontController::class, 'blogDetail'])->name('blog.detail');

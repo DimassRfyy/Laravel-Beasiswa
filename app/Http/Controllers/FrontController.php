@@ -41,4 +41,9 @@ class FrontController extends Controller
     {
         return view('pages.blog');
     }
+
+    public function blogDetail()
+    {
+        return view('pages.details_blog');
+    }
 }
