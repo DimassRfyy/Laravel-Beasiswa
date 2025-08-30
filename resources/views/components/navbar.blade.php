@@ -4,7 +4,8 @@
         class="fixed inset-y-0 left-0 transform -translate-x-full md:hidden w-72 bg-gradient-to-b from-pink-50 to-white shadow-lg z-50 transition-transform duration-300 ease-in-out">
         <div class="flex items-center justify-between p-4 border-b border-pink-100">
             <div class="flex items-center">
-                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo" class="h-12 w-auto">
+                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo"
+                    class="h-12 w-auto">
             </div>
             <button id="close-sidebar" class="text-pink-500 hover:text-pink-700 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -19,50 +20,57 @@
             <ul class="space-y-6">
                 <li>
                     <a href="{{ route('home') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'home' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'home' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Beranda
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('sponsorship') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'sponsorship' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'sponsorship' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Sponsorship
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('partnership') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'partnership' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'partnership' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Partnership
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('mentor') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'mentor' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'mentor' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Mentor
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('coach') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'coach' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'coach' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Coach
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('donation') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'donation' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'donation' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Donasi
                     </a>
                 </li>
                 <li>
                     <a href="{{ route('blog') }}"
-                        class="flex items-center py-2 px-4 text-pink-600 hover:bg-pink-50 rounded-md transition duration-200 sidebar-link">
-                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                        class="flex items-center py-2 px-4 {{ Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'blog.detail' ? 'text-pink-800 bg-pink-100 font-semibold' : 'text-pink-600 hover:bg-pink-50' }} rounded-md transition duration-200 sidebar-link">
+                        <span
+                            class="w-2 h-2 {{ Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'blog.detail' ? 'bg-pink-600' : 'bg-pink-400' }} rounded-full mr-3"></span>
                         Blog
                     </a>
                 </li>
@@ -102,7 +110,8 @@
     <header class="sticky top-0 bg-white shadow-sm z-30 lg:px-8">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
-                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo" class="h-12 w-auto">
+                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo"
+                    class="h-12 w-auto">
             </div>
 
             <!-- Mobile menu button -->
@@ -121,43 +130,43 @@
                 <ul class="flex space-x-6 lg:space-x-8">
                     <li>
                         <a href="{{ route('home') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'home' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Beranda
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('sponsorship') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'sponsorship' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Sponsorship
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('partnership') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'partnership' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Partnership
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('mentor') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'mentor' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Mentor
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('coach') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'coach' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Coach
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('donation') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'donation' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Donasi
                         </a>
                     </li>
                     <li>
                         <a href="{{ route('blog') }}"
-                            class="text-pink-600 hover:text-pink-800 transition duration-200 font-medium">
+                            class="{{ Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'blog.detail' ? 'text-pink-800 font-semibold border-b-2 border-pink-600 pb-1' : 'text-pink-600 hover:text-pink-800' }} transition duration-200 font-medium">
                             Blog
                         </a>
                     </li>

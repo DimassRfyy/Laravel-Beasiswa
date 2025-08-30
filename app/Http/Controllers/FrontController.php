@@ -41,9 +41,7 @@ class FrontController extends Controller
 
     public function blog()
     {
-        $categories = Category::all();
-        $blogs = Blog::with(['user', 'category'])->take(8)->get();
-        return view('pages.blog', compact('blogs', 'categories'));
+        return view('pages.blog');
     }
 
     public function blogDetail(Blog $blog)

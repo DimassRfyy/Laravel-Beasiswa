@@ -270,83 +270,9 @@
         // Set current year in footer
         document.getElementById('current-year').textContent = new Date().getFullYear();
 
-        // Search and Filter functionality
-        const searchInput = document.getElementById('search-input');
-        const categoryFilters = document.querySelectorAll('.category-filter');
-        const articleCards = document.querySelectorAll('.article-card');
-        const searchResults = document.getElementById('search-results');
-
-        let currentCategory = 'all';
-        let currentSearchTerm = '';
-
-        // Search functionality
-        searchInput.addEventListener('input', function (e) {
-            currentSearchTerm = e.target.value.toLowerCase();
-            filterArticles();
-        });
-
-        // Category filter functionality
-        categoryFilters.forEach(filter => {
-            filter.addEventListener('click', function () {
-                // Remove active class from all filters
-                categoryFilters.forEach(f => f.classList.remove('active'));
-                // Add active class to clicked filter
-                this.classList.add('active');
-
-                currentCategory = this.getAttribute('data-category');
-                filterArticles();
-            });
-        });
-
-        function filterArticles() {
-            let visibleCount = 0;
-
-            articleCards.forEach(card => {
-                const category = card.getAttribute('data-category');
-                const title = card.getAttribute('data-title').toLowerCase();
-                const content = card.getAttribute('data-content').toLowerCase();
-
-                const matchesCategory = currentCategory === 'all' || category === currentCategory;
-                const matchesSearch = currentSearchTerm === '' ||
-                    title.includes(currentSearchTerm) ||
-                    content.includes(currentSearchTerm);
-
-                if (matchesCategory && matchesSearch) {
-                    card.classList.remove('hidden');
-                    visibleCount++;
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
-
-            // Update search results text
-            if (currentSearchTerm !== '' || currentCategory !== 'all') {
-                let resultText = '';
-                if (currentSearchTerm !== '') {
-                    resultText = `Menampilkan ${visibleCount} artikel untuk "${currentSearchTerm}"`;
-                } else {
-                    const categoryName = getCategoryName(currentCategory);
-                    resultText = `Menampilkan ${visibleCount} artikel kategori ${categoryName}`;
-                }
-                searchResults.textContent = resultText;
-                searchResults.classList.remove('hidden');
-            } else {
-                searchResults.classList.add('hidden');
-            }
-        }
-
-        function getCategoryName(category) {
-            const categoryNames = {
-                'tips-karir': 'Tips Karir',
-                'kisah-sukses': 'Kisah Sukses',
-                'tutorial': 'Tutorial',
-                'industri': 'Industri'
-            };
-            return categoryNames[category] || category;
-        }
-
         // Share functionality
         function copyLink() {
+            alert('Link telah disalin!');
             const url = window.location.href;
             navigator.clipboard.writeText(url).then(() => {
                 // Show success message
