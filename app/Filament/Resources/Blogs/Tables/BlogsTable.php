@@ -2,9 +2,12 @@
 
 namespace App\Filament\Resources\Blogs\Tables;
 
+use Filament\Actions\ActionGroup;
 use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteAction;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Filament\Tables\Columns\ImageColumn;
@@ -15,10 +18,12 @@ class BlogsTable
     {
         return $table
             ->columns([
-                ImageColumn::make('thumbnail'),
+                ImageColumn::make('thumbnail')
+                    ->disk('public'),
                 TextColumn::make('title')
                     ->searchable(),
                 TextColumn::make('category.name')
+                    ->badge()
                     ->sortable(),
                 TextColumn::make('created_at')
                     ->dateTime()
@@ -33,7 +38,14 @@ class BlogsTable
                 //
             ])
             ->recordActions([
-                EditAction::make(),
+                ActionGroup::make([
+                    ActionGroup::make([
+                        ViewAction::make(),
+                        EditAction::make(),
+                    ])
+                        ->dropdown(false),
+                    DeleteAction::make()
+                ])->icon('heroicon-m-bars-3')
             ])
             ->toolbarActions([
                 BulkActionGroup::make([

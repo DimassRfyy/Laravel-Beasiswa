@@ -157,6 +157,19 @@
             animation-delay: 0.5s;
         }
 
+        .article-content ol {
+            list-style-type: decimal;
+            margin-left: 1.5em;
+        }
+
+        .article-content li {
+            margin-bottom: 0.5em;
+        }
+
+        .article-content p {
+            margin-bottom: 1.25em;
+        }
+
         .category-filter.active {
             background-color: #db2777;
             color: white;

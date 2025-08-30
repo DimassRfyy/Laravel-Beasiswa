@@ -25,7 +25,11 @@ class BlogForm
                     ->required(),
                 Select::make('category_id')
                     ->required()
-                    ->relationship('category', 'name'),
+                    ->relationship('category', 'name')
+                    ->createOptionForm([
+                            TextInput::make('name')
+                                ->required(),
+                        ]),
                 RichEditor::make('content')
                     ->required()
                     ->columnSpanFull(),

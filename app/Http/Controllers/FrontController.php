@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blog;
+use App\Models\Category;
 
 
 class FrontController extends Controller
@@ -39,11 +41,16 @@ class FrontController extends Controller
 
     public function blog()
     {
-        return view('pages.blog');
+        $categories = Category::all();
+        $blogs = Blog::with(['user', 'category'])->take(8)->get();
+        return view('pages.blog', compact('blogs', 'categories'));
     }
 
-    public function blogDetail()
+    public function blogDetail(Blog $blog)
     {
-        return view('pages.details_blog');
+        $blog->load(['user', 'category']);
+        $categories = Category::withCount('blogs')->get();
+        $otherBlogs = Blog::where('id', '!=', $blog->id)->take(4)->get();
+        return view('pages.details_blog', compact('blog', 'categories', 'otherBlogs'));
     }
 }

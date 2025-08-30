@@ -2,7 +2,7 @@
     <!-- Mobile Sidebar -->
     <div id="mobile-sidebar"
         class="fixed inset-y-0 left-0 transform -translate-x-full md:hidden w-72 bg-gradient-to-b from-pink-50 to-white shadow-lg z-50 transition-transform duration-300 ease-in-out">
-        <div class="flex items-center justify-between p-6 border-b border-pink-100">
+        <div class="flex items-center justify-between p-4 border-b border-pink-100">
             <div class="flex items-center">
                 <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo" class="h-12 w-auto">
             </div>
