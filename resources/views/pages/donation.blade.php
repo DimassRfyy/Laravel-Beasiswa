@@ -207,7 +207,7 @@
                         </div>
                     </div>
 
-                    <div class="lg:w-1/3 justify-center items-center hidden lg:block">
+                    <div class="lg:w-1/3 justify-center items-center">
                         <div class="relative w-full h-72 md:h-96 flex justify-center items-center">
                             <div
                                 class="bg-white rounded-2xl shadow-xl w-full h-72 md:h-96 flex flex-col justify-center items-center p-8 border border-pink-100">
