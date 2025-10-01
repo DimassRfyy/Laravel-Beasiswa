@@ -69,17 +69,17 @@
                     <p class="text-gray-500 text-sm uppercase tracking-wider">Bekerjasama dengan</p>
                 </div>
                 <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-                    <div class="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
-                        <img src="assets/images/logos/logo-salonkita-header.svg" alt="Partner 1"
-                            class="h-12 w-auto object-contain" />
+                    <div class="">
+                        <img src="assets/images/logos/c.jpg" alt="Partner 1"
+                            class="h-16 md:h-20 w-auto object-contain" />
                     </div>
-                    <div class="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
-                        <img src="assets/images/logos/logo-salonkita-header.svg" alt="Partner 2"
-                            class="h-12 w-auto object-contain" />
+                    <div class="">
+                        <img src="assets/images/logos/e.jpg" alt="Partner 2"
+                            class="h-16 md:h-20 w-auto object-contain" />
                     </div>
-                    <div class="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100">
-                        <img src="assets/images/logos/logo-salonkita-header.svg" alt="Partner 3"
-                            class="h-12 w-auto object-contain" />
+                    <div class="">
+                        <img src="assets/images/logos/logo.png" alt="Partner 3"
+                            class="h-16 md:h-20 w-auto object-contain" />
                     </div>
                 </div>
             </div>

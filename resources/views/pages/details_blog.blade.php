@@ -6,7 +6,7 @@
 
     <main>
 
-        <section class="py-4 bg-pink-50">
+        <section class="py-4 bg-pink-50 lg:px-12">
             <div class="container mx-auto px-4">
                 <div class="max-w-7xl mx-auto">
                     <nav class="flex items-center space-x-2 text-sm text-gray-600">
@@ -29,7 +29,7 @@
         </section>
 
 
-        <section class="py-12">
+        <section class="py-12 lg:px-12">
             <div class="container mx-auto px-4">
                 <div class="max-w-7xl mx-auto">
                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -40,7 +40,7 @@
                                         class="bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm font-medium">{{ $blog->category->name ?? 'Tanpa Kategori' }}</span>
                                 </div>
 
-                                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6 leading-tight">
+                                <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6 leading-tight">
                                     {{ $blog->title }}
                                 </h1>
 

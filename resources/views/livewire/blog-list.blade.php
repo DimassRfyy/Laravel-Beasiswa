@@ -57,7 +57,7 @@
     @endif
 
     <!-- Blog Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:px-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:px-8">
         @forelse($blogs as $blog)
             <div class="animate-fade-in-up">
                 <a href="{{ route('blog.detail', $blog->slug) }}">
@@ -84,11 +84,11 @@
                                 </svg>
                                 {{ $blog->created_at->format('d M Y') }}
                             </div>
-                            <h3
-                                class="text-xl font-semibold text-gray-800 mb-3 group-hover:text-pink-600 transition duration-200">
+                            <h4
+                                class="text-md font-semibold text-gray-800 mb-3 group-hover:text-pink-600 transition duration-200">
                                 {{ $blog->title }}
-                            </h3>
-                            <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                            </h4>
+                            <p class="text-gray-600 text-xs mb-4 leading-relaxed">
                                 {{ Str::limit(strip_tags($blog->content), 100) }}
                             </p>
                             <div class="flex items-center justify-between">

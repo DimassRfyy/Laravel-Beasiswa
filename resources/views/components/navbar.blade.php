@@ -110,8 +110,12 @@
     <header class="sticky top-0 bg-white shadow-sm z-30 lg:px-8">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
+                <!-- Logo untuk mobile (noteks) -->
                 <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo"
-                    class="h-12 w-auto">
+                    class="h-12 w-auto md:hidden">
+                <!-- Logo untuk desktop (horizontal) -->
+                <img src="{{ asset('assets/images/logos/wmm-logo-horizontal.png') }}" alt="SalonKita Logo"
+                    class="h-10 w-auto hidden md:block">
             </div>
 
             <!-- Mobile menu button -->

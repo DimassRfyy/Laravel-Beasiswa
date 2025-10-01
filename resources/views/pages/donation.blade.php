@@ -83,8 +83,7 @@
                                 Dengan Berdonasi, <span class="text-pink-600">Anda Membantu</span>
                             </h2>
                             <div class="space-y-4 mb-8">
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -101,13 +100,11 @@
                                             tinggi dengan standar industri internasional</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-package">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-package">
                                             <line x1="16.5" x2="7.5" y1="9.4" y2="4.21" />
                                             <path d="m21 16-4 2-4-2-4 2-4-2v-6l4-2 4 2 4-2 4 2z" />
                                             <polyline points="7.5,4.21 7.5,14.3 16.5,9.4 16.5,19.79" />
@@ -120,8 +117,7 @@
                                             peralatan dan produk kecantikan terbaik</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -180,66 +176,53 @@
             </div>
         </section>
 
-        <section id="donation-form" class="py-20 md:py-28 bg-pink-600 text-white relative overflow-hidden">
-            <div class="absolute inset-0 z-0">
-                <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=2070&auto=format&fit=crop"
-                    alt="Beauty background" class="w-full h-full object-cover opacity-10" />
-            </div>
+        <section id="donation-form" class="py-20 md:py-28 bg-white relative overflow-hidden lg:px-16 px-2">
             <div class="container mx-auto px-4 relative z-10">
-                <div class="text-center max-w-4xl mx-auto mb-12">
-                    <div class="animate-fade-in-up js-animate">
-                        <h2 class="text-4xl md:text-5xl font-bold mb-6">Ubah Hidup Seseorang Hari Ini</h2>
-                        <p class="text-lg mb-8 max-w-2xl mx-auto opacity-90">Scan QRIS di bawah ini untuk berdonasi
-                            dengan mudah. Setiap kontribusi akan langsung disalurkan untuk program beasiswa.</p>
-                    </div>
-                </div>
-
-                <div class="max-w-4xl mx-auto">
-                    <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-
-                        <div class="lg:w-1/2">
-                            <div class="bg-white rounded-2xl p-8 shadow-2xl">
-                                <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Scan QRIS untuk Donasi
-                                </h3>
-
-                                <div class="w-64 h-64 mx-auto rounded-xl flex items-center justify-center mb-6">
-                                    <img src="assets/images/thumbnails/qris.png" alt="" />
-                                </div>
+                <div class="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
+                    <div class="lg:w-2/3">
+                        <div class="animate-fade-in-up js-animate">
+                            <div
+                                class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
+                                💖 Ubah Hidup Seseorang 💖</div>
+                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Siap Berdonasi?</h2>
+                            <p class="text-xl text-gray-700 mb-8">💫 Scan QRIS di samping untuk berdonasi dengan mudah.
+                                Setiap kontribusi akan langsung disalurkan untuk program beasiswa.</p>
+                            <div class="bg-pink-50 p-6 rounded-lg mb-8 border-l-4 border-pink-600">
+                                <p class="text-xl font-medium text-pink-700 italic">"Setiap Rp100.000 yang Anda berikan
+                                    dapat mengubah hidup seseorang dan memberikan mereka kesempatan untuk mandiri secara
+                                    ekonomi."</p>
+                            </div>
+                            <div class="flex flex-col sm:flex-row gap-4">
+                                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20sudah%20melakukan%20donasi%20untuk%20Program%201000%20Beasiswa%20Beauty%20Artist.%20Berikut%20bukti%20transfernya:"
+                                    class="inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-50 transition duration-300 text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" class="lucide lucide-mail mr-2">
+                                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                                        <path d="m22 7-10 5L2 7" />
+                                    </svg>
+                                    Kirim Bukti Donasi
+                                </a>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="lg:w-1/2 text-center lg:text-left">
-                            <div class="mb-8">
-                                <h3 class="text-3xl font-bold mb-4">Sudah Transfer?</h3>
-                                <p class="text-lg opacity-90 mb-6">Kirim bukti transfer Anda melalui WhatsApp untuk
-                                    konfirmasi donasi</p>
-                                <div class="bg-white/20 rounded-lg p-4 mb-6">
-                                    <div class="flex items-center justify-center lg:justify-start mb-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-check-circle mr-2">
-                                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                                            <polyline points="22,4 12,14.01 9,11.01" />
-                                        </svg>
-                                        <span class="font-semibold">Proses Cepat &amp; Mudah</span>
-                                    </div>
-                                    <p class="text-sm opacity-75">Tim kami akan segera memverifikasi donasi Anda
-                                        dalam 1x24 jam</p>
+                    <div class="lg:w-1/3 justify-center items-center hidden lg:block">
+                        <div class="relative w-full h-72 md:h-96 flex justify-center items-center">
+                            <div
+                                class="bg-white rounded-2xl shadow-xl w-full h-72 md:h-96 flex flex-col justify-center items-center p-8 border border-pink-100">
+                                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Scan QRIS untuk Donasi</h3>
+                                <div
+                                    class="w-48 h-48 mx-auto rounded-xl flex items-center justify-center mb-4 bg-gray-50">
+                                    <img src="assets/images/logos/qr.jpg" alt="QR Code Donasi"
+                                        class="w-full h-full object-contain rounded-lg" />
+                                </div>
+                                <div class="text-center">
+                                    <span
+                                        class="inline-block bg-pink-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow">Donasi
+                                        Sekarang!</span>
                                 </div>
                             </div>
-                            <a href="https://wa.me/6281234567890?text=Halo,%20saya%20sudah%20melakukan%20donasi%20untuk%20Program%201000%20Beasiswa%20Beauty%20Artist.%20Berikut%20bukti%20transfernya:"
-                                target="_blank"
-                                class="inline-flex items-center justify-center bg-green-500 text-white font-bold px-8 py-4 rounded-full hover:bg-green-600 transform hover:scale-105 transition duration-300 text-lg shadow-lg w-full lg:w-auto">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" class="lucide lucide-message-circle mr-3">
-                                    <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
-                                </svg>
-                                Kirim Bukti Donasi
-                            </a>
-                            <p class="mt-4 text-sm opacity-75">Klik tombol di atas untuk mengirim bukti transfer via
-                                WhatsApp</p>
                         </div>
                     </div>
                 </div>
