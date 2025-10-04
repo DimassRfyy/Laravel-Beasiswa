@@ -4,8 +4,8 @@
         class="fixed inset-y-0 left-0 transform -translate-x-full md:hidden w-72 bg-gradient-to-b from-pink-50 to-white shadow-lg z-50 transition-transform duration-300 ease-in-out">
         <div class="flex items-center justify-between p-4 border-b border-pink-100">
             <div class="flex items-center">
-                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo"
-                    class="h-12 w-auto">
+                <img src="{{ asset('assets/images/logos/wmm-logo-horizontal.png') }}" alt="SalonKita Logo"
+                    class="h-10 w-auto">
             </div>
             <button id="close-sidebar" class="text-pink-500 hover:text-pink-700 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -107,12 +107,12 @@
     <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden hidden"></div>
 
     <!-- Header -->
-    <header class="sticky top-0 bg-white shadow-sm z-30 lg:px-8">
+    <header class="fixed top-0 left-0 right-0 bg-white shadow-sm z-30 lg:px-8">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
                 <!-- Logo untuk mobile (noteks) -->
-                <img src="{{ asset('assets/images/logos/wmm-logo-noteks.png') }}" alt="SalonKita Logo"
-                    class="h-12 w-auto md:hidden">
+                <img src="{{ asset('assets/images/logos/wmm-logo-horizontal.png') }}" alt="SalonKita Logo"
+                    class="h-10 w-auto md:hidden">
                 <!-- Logo untuk desktop (horizontal) -->
                 <img src="{{ asset('assets/images/logos/wmm-logo-horizontal.png') }}" alt="SalonKita Logo"
                     class="h-10 w-auto hidden md:block">

@@ -219,7 +219,7 @@
     @stack('styles')
 </head>
 
-<body class="min-h-screen bg-white text-gray-800 relative">
+<body class="min-h-screen bg-white text-gray-800 relative pt-16 md:pt-16">
 
     {{ $slot }}
 
@@ -319,6 +319,23 @@
                 }
             });
         });
+
+        // Dynamic navbar shadow on scroll
+        function handleNavbarScroll() {
+            const navbar = document.querySelector('header');
+            if (navbar) {
+                if (window.scrollY > 0) {
+                    navbar.classList.add('shadow-lg');
+                    navbar.classList.remove('shadow-sm');
+                } else {
+                    navbar.classList.add('shadow-sm');
+                    navbar.classList.remove('shadow-lg');
+                }
+            }
+        }
+
+        window.addEventListener('scroll', handleNavbarScroll);
+        window.addEventListener('load', handleNavbarScroll);
     </script>
 </body>
 
