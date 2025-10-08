@@ -210,18 +210,9 @@
                     <div class="lg:w-1/3 justify-center items-center">
                         <div class="relative w-full h-72 md:h-96 flex justify-center items-center">
                             <div
-                                class="bg-white rounded-2xl shadow-xl w-full h-72 md:h-96 flex flex-col justify-center items-center p-8 border border-pink-100">
-                                <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Scan QRIS untuk Donasi</h3>
-                                <div
-                                    class="w-48 h-48 mx-auto rounded-xl flex items-center justify-center mb-4 bg-gray-50">
-                                    <img src="assets/images/logos/qr.jpg" alt="QR Code Donasi"
-                                        class="w-full h-full object-contain rounded-lg" />
-                                </div>
-                                <div class="text-center">
-                                    <span
-                                        class="inline-block bg-pink-600 text-white text-xs font-semibold px-4 py-2 rounded-full shadow">Donasi
-                                        Sekarang!</span>
-                                </div>
+                                class="bg-white rounded-2xl shadow-xl w-full h-72 md:h-96 flex flex-col justify-center items-center border border-pink-100">
+                                <img src="assets/images/logos/new-qr.jpg" alt="QR Code Donasi"
+                                    class="w-full h-full object-contain rounded-lg" />
                             </div>
                         </div>
                     </div>

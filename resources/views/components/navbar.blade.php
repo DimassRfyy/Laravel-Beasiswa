@@ -84,22 +84,18 @@
             </ul>
         </nav>
         <div class="absolute bottom-0 left-0 right-0 p-6 border-t border-pink-100">
-            <div class="flex items-center text-pink-600">
-                <div class="flex items-center justify-center w-10 h-10 rounded-full bg-pink-100">
+            <a href="{{ route('donation') }}" class="block w-full">
+                <div
+                    class="flex items-center justify-center bg-pink-600 hover:bg-pink-700 text-white px-4 py-3 rounded-lg transition duration-200">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-users">
-                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                        <circle cx="9" cy="7" r="4" />
-                        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        class="lucide lucide-heart mr-2">
+                        <path
+                            d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z" />
                     </svg>
+                    <span class="font-medium">Beri Donasi</span>
                 </div>
-                <div class="ml-3">
-                    <p class="text-sm font-medium">Contact Service</p>
-                    <p class="text-xs">+62 123 4567 8901</p>
-                </div>
-            </div>
+            </a>
         </div>
     </div>
 
