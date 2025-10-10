@@ -584,9 +584,10 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="font-semibold text-pink-600">Perempuan usia 17–25 tahun</h3>
+                                        <h3 class="font-semibold text-pink-600">Terbuka untuk semua umur</h3>
                                         <p class="text-sm text-gray-700">
-                                            Terbuka untuk perempuan muda yang ingin memulai karir di industri kecantikan
+                                            Terbuka untuk semua umur yang ingin belajar dan memulai karir di industri
+                                            kecantikan
                                         </p>
                                     </div>
                                 </div>
