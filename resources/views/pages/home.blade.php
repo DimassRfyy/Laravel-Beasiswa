@@ -43,45 +43,22 @@
                         </div>
                     </div>
                     <div class="md:w-1/2">
-                        <div class="animate-scale js-animate">
-                            <div class="relative flex items-center justify-center">
-                                <!-- Background decorative elements -->
-                                <div class="absolute inset-0 flex items-center justify-center">
-                                    <!-- Main large gradient circle -->
-                                    <div
-                                        class="w-96 h-96 md:w-[32rem] md:h-[32rem] bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 rounded-full blur-lg opacity-60 animate-pulse">
-                                    </div>
-                                </div>
-
-                                <!-- Secondary gradient circles for depth -->
-                                <div class="absolute inset-0 flex items-center justify-center">
-                                    <div class="w-80 h-80 md:w-[28rem] md:h-[28rem] bg-gradient-to-tl from-pink-200 via-pink-300 to-pink-400 rounded-full blur-md opacity-40 animate-pulse"
-                                        style="animation-delay: 1s;">
-                                    </div>
-                                </div>
-
-                                <!-- Smaller accent circles -->
-                                <div class="absolute top-10 right-10 w-20 h-20 md:w-32 md:h-32 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full blur-sm opacity-50 animate-bounce"
-                                    style="animation-delay: 0.5s; animation-duration: 3s;"></div>
-
-                                <div class="absolute bottom-16 left-8 w-16 h-16 md:w-24 md:h-24 bg-gradient-to-tr from-pink-200 to-pink-300 rounded-full blur-sm opacity-60 animate-bounce"
-                                    style="animation-delay: 1.5s; animation-duration: 4s;"></div>
-
-                                <div class="absolute top-1/3 left-4 w-12 h-12 md:w-20 md:h-20 bg-gradient-to-br from-pink-100 to-pink-200 rounded-full blur-sm opacity-40 animate-pulse"
-                                    style="animation-delay: 2s;"></div>
-
-                                <!-- Floating sparkle effects -->
-                                <div class="absolute top-20 left-1/3 w-3 h-3 md:w-4 md:h-4 bg-pink-400 rounded-full opacity-70 animate-ping"
-                                    style="animation-delay: 0.8s;"></div>
-
-                                <div class="absolute bottom-24 right-1/4 w-2 h-2 md:w-3 md:h-3 bg-pink-300 rounded-full opacity-60 animate-ping"
-                                    style="animation-delay: 1.3s;"></div>
-
-                                <!-- Main image container -->
-                                <div class="rounded-2xl overflow-hidden relative z-10">
-                                    <img src="assets/images/thumbnails/banner2-nobg.png"
-                                        alt="SalonKita Scholarship Program" class="w-full h-auto" />
-                                </div>
+                        <div class="grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-lg xl:max-w-xl">
+                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/banner-potrait.jpg" alt="Beauty student 1"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/banner4.jpg" alt="Beauty student 2"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/banner5.jpg" alt="Beauty student 3"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/banner1.jpg" alt="Beauty student 4"
+                                    class="w-full h-full object-cover" />
                             </div>
                         </div>
                     </div>
