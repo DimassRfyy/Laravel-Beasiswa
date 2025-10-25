@@ -518,7 +518,7 @@
                     </div>
                     <div class="md:w-1/2 mt-10 md:mt-0">
                         <div class="relative">
-                            <img src="assets/images/thumbnails/manfaat.avif" alt="Beauty benefits"
+                            <img src="assets/images/thumbnails/manfaat.png" alt="Beauty benefits"
                                 class="rounded-lg shadow-xl" />
                             <div class="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
                                 <div class="flex items-center gap-3">
@@ -552,16 +552,16 @@
                                 <img src="assets/images/thumbnails/bg-brush.avif" alt="Beauty student 1"
                                     class="w-full h-full object-cover" />
                             </div>
-                            <div class="rounded-lg overflow-hidden shadow-md mt-8">
-                                <img src="assets/images/thumbnails/bg-makeup.avif" alt="Beauty student 2"
+                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/banner-potrait.jpg" alt="Beauty student 2"
                                     class="w-full h-full object-cover" />
                             </div>
                             <div class="rounded-lg overflow-hidden shadow-md">
-                                <img src="assets/images/thumbnails/bg-salon.avif" alt="Beauty student 3"
+                                <img src="assets/images/thumbnails/requirement1.png" alt="Beauty student 3"
                                     class="w-full h-full object-cover" />
                             </div>
                             <div class="rounded-lg overflow-hidden shadow-md mt-8">
-                                <img src="assets/images/thumbnails/bg-nailart.avif" alt="Beauty student 4"
+                                <img src="assets/images/thumbnails/requirement2.png" alt="Beauty student 4"
                                     class="w-full h-full object-cover" />
                             </div>
                         </div>
@@ -921,7 +921,7 @@
                         <div class="lg:w-1/3">
                             <div class="animate-scale">
                                 <div class="relative">
-                                    <img src="assets/images/thumbnails/mentor.jpg" alt="Mentor & Coach Illustration"
+                                    <img src="assets/images/thumbnails/banner5.jpg" alt="Mentor & Coach Illustration"
                                         class="w-full h-auto max-w-sm mx-auto rounded-2xl shadow-lg" />
                                     <div
                                         class="absolute -bottom-3 -right-3 bg-pink-600 text-white px-4 py-2 rounded-lg shadow-lg transform rotate-3">
@@ -1031,6 +1031,134 @@
             </div>
         </section>
 
+        <section class="py-16 md:py-20 bg-gradient-to-r from-pink-50 to-white lg:px-12 px-2">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="flex flex-col lg:flex-row items-center gap-12">
+                        <div class="lg:w-2/3 text-center lg:text-left">
+                            <div class="animate-fade-in-up">
+                                <h3 class="text-3xl md:text-4xl font-bold text-pink-600 mb-6">Dukung Kami Dalam
+                                    Mewujudkan Impian Perempuan Indonesia</h3>
+                                <p class="text-lg text-gray-700 mb-8 max-w-2xl">
+                                    Kami mengundang Anda untuk menjadi bagian dari keberhasilan acara ini melalui
+                                    dukungan sebagai sponsor, partner, atau donasi. Kontribusi Anda akan menjadi bagian
+                                    penting dalam tercapainya tujuan kegiatan ini.
+                                </p>
+
+                                <div class="hidden md:grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                    <div class="flex items-center">
+                                        <div class="bg-pink-600 p-2 rounded-full mr-4 flex-shrink-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-heart text-white">
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-gray-700">Memberikan dampak sosial berkelanjutan</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="bg-pink-600 p-2 rounded-full mr-4 flex-shrink-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-users text-white">
+                                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                                <circle cx="9" cy="7" r="4" />
+                                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-gray-700">Mendukung akses pelatihan gratis</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="bg-pink-600 p-2 rounded-full mr-4 flex-shrink-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-graduation-cap text-white">
+                                                <path
+                                                    d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                                <path d="M22 10v6" />
+                                                <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-gray-700">Investasi sosial yang bermakna</p>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div class="bg-pink-600 p-2 rounded-full mr-4 flex-shrink-0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-star text-white">
+                                                <polygon
+                                                    points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-gray-700">Mendorong kemandirian ekonomi</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                    <a href="coach.html"
+                                        class="inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-600 hover:text-white transition duration-300 text-center shadow-lg">
+                                        Donasi
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-graduation-cap ml-2">
+                                            <path
+                                                d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+                                            <path d="M22 10v6" />
+                                            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+                                        </svg>
+                                    </a>
+                                    <a href="mentor.html"
+                                        class="inline-block bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
+                                        Sponsorship
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-users inline ml-2">
+                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                            <circle cx="9" cy="7" r="4" />
+                                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                        </svg>
+                                    </a>
+                                    <a href="mentor.html"
+                                        class="inline-block bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
+                                        Partnership
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-users inline ml-2">
+                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                            <circle cx="9" cy="7" r="4" />
+                                            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/3">
+                            <div class="animate-scale">
+                                <div class="relative">
+                                    <img src="assets/images/thumbnails/partner.jpg" alt="Mentor & Coach Illustration"
+                                        class="w-full h-auto max-w-sm mx-auto rounded-2xl shadow-lg" />
+                                    <div
+                                        class="absolute -bottom-3 -right-3 bg-pink-600 text-white px-4 py-2 rounded-lg shadow-lg transform rotate-3">
+                                        <span class="font-bold text-sm">BERGABUNG!</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section id="apply" class="py-16 px-2 md:py-28 bg-white relative overflow-hidden lg:px-14">
             <div class="container mx-auto px-4 relative z-10">

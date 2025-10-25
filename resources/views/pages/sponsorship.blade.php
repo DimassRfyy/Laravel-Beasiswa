@@ -53,6 +53,96 @@
             </div>
         </section>
 
+        <section id="roadmap" class="py-16 bg-white hidden md:block">
+            <div class="container mx-auto px-4">
+
+                <div class="overflow-x-auto">
+                    <div class="flex flex-col gap-6">
+                        <!-- top row: images + arrows -->
+                        <div class="flex items-center gap-6 lg:gap-12 justify-center py-6">
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap1.png" alt="Roadmap 1"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap2.png" alt="Roadmap 2"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap3.png" alt="Roadmap 3"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap4.png" alt="Roadmap 4"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+                        </div>
+
+                        <!-- bottom row: captions aligned under images -->
+                        <div class="flex items-start gap-6 lg:gap-12 justify-center">
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Dukungan Anda</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Finansial &amp; Sumber Daya</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Pelaksanaan Program</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Pelatihan & Magang</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">1.000 Talenta Berkualitas</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Tersertifikasi & Siap Bekerja</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Dampak Berkelanjutan</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Mendorong Kemandirian Ekonomi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="about-sponsorship" class="py-20 md:py-28 bg-white lg:px-12">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-center gap-12">
@@ -61,12 +151,12 @@
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-4">
                                 Manfaat Sponsorship</div>
-                            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                                Sebagai <span class="text-pink-600">Sponsor</span>, Anda Akan Mendapatkan
+                            <h2 class="text-3xl  font-bold text-gray-800 mb-6">
+                                Bergabung Sebagai <span class="text-pink-600">Sponsor</span>, Raih Manfaat Strategis
+                                Bersama Kami
                             </h2>
                             <div class="space-y-4 mb-8">
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -83,14 +173,14 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="font-semibold text-pink-600 mb-1">Brand Exposure di Berbagai
-                                            Kanal</h3>
+                                        <h3 class="font-semibold text-pink-600 mb-1">Brand Anda Semakin Dikenal di
+                                            Berbagai Kanal Strategis</h3>
                                         <p class="text-sm text-gray-700">Logo dan brand Anda akan ditampilkan di
-                                            website, media sosial, materi promosi, dan seluruh kegiatan program</p>
+                                            website, media sosial, materi promosi, dan seluruh kegiatan program sebagai
+                                            bentuk pengakuan atas kontribusi Anda</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -104,12 +194,12 @@
                                     <div>
                                         <h3 class="font-semibold text-pink-600 mb-1">Keterlibatan Langsung dalam
                                             Aksi Sosial</h3>
-                                        <p class="text-sm text-gray-700">Berpartisipasi aktif dalam kegiatan program
-                                            dan melihat dampak nyata dari kontribusi Anda</p>
+                                        <p class="text-sm text-gray-700">Berperan langsung dalam mendukung pelaksanaan
+                                            program dan melahirkan talenta perempuan yang berkualitas serta berdaya
+                                            saing</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -119,10 +209,11 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="font-semibold text-pink-600 mb-1">Citra Positif
-                                            Perusahaan/Individu</h3>
+                                        <h3 class="font-semibold text-pink-600 mb-1">Reputasi Positif dan Nilai Tambah
+                                            yang Berkelanjutan</h3>
                                         <p class="text-sm text-gray-700">Membangun reputasi sebagai organisasi yang
-                                            peduli pada pemberdayaan perempuan dan tanggung jawab sosial</p>
+                                            berkomitmen pada pemberdayaan perempuan dan menciptakan perubahan sosial
+                                            berkelanjutan</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +221,7 @@
                     </div>
                     <div class="md:w-1/2">
                         <div class="relative">
-                            <img src="assets/images/thumbnails/sponsorship.jpg" alt="Sponsorship impact"
+                            <img src="assets/images/thumbnails/manfaat-sponsor.png" alt="Sponsorship impact"
                                 class="rounded-lg shadow-xl" />
                             <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
                                 <div class="flex items-center gap-3">
@@ -164,24 +255,23 @@
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
                                 💫 Mari Bersponsor</div>
                             <div class="relative">
-                                <blockquote
-                                    class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 leading-relaxed">
-                                    "Bersama, kita bisa mengubah potensi menjadi prestasi, dan mimpi menjadi kenyataan."
+                                <blockquote class="text-2xl md:text-3xl font-bold text-gray-800 mb-6 leading-relaxed">
+                                    "Bersama, kita bisa wujudkan potensi menjadi prestasi, dan mimpi menjadi inspirasi
+                                    nyata."
                                 </blockquote>
                             </div>
-                            <div class="space-y-4 mb-8">
+                            <div class="space-y-4 mb-8 hidden md:block">
                                 <div class="flex items-center justify-center md:justify-start">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-heart">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-heart">
                                             <path
                                                 d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                                         </svg>
                                     </div>
-                                    <span class="text-gray-700 font-medium">Wujudkan mimpi 1000 perempuan
-                                        Indonesia</span>
+                                    <span class="text-gray-700 font-medium">Dukung 1000 perempuan Indonesia untuk
+                                        berkembang dan berdaya</span>
                                 </div>
                                 <div class="flex items-center justify-center md:justify-start">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-3">
@@ -192,8 +282,8 @@
                                                 points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                                         </svg>
                                     </div>
-                                    <span class="text-gray-700 font-medium">Bangun citra positif perusahaan
-                                        Anda</span>
+                                    <span class="text-gray-700 font-medium">Bangun citra perusahaan yang berkelas dan
+                                        berdampak</span>
                                 </div>
                                 <div class="flex items-center justify-center md:justify-start">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-3">
@@ -205,7 +295,8 @@
                                             <polyline points="16,7 22,7 22,13" />
                                         </svg>
                                     </div>
-                                    <span class="text-gray-700 font-medium">Dapatkan brand exposure maksimal</span>
+                                    <span class="text-gray-700 font-medium">Dapatkan eksposur brand yang luas dan
+                                        bermakna</span>
                                 </div>
                             </div>
                         </div>
@@ -263,9 +354,11 @@
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
                                 🚀 Mulai Sekarang</div>
-                            <h2 class="text-4xl md:text-5xl font-bold text-pink-600 mb-4">Siap Menjadi Sponsor?</h2>
-                            <p class="text-lg md:text-xl text-gray-700 mb-8">Jika tertarik menjadi sponsor, silakan
-                                isi form pendataan sponsor dan mulai berkontribusi untuk masa depan yang lebih baik.</p>
+                            <h2 class="text-3xl md:text-5xl font-bold text-pink-600 mb-4">Saatnya berinvestasi untuk
+                                perubahan nyata</h2>
+                            <p class="text-lg md:text-xl text-gray-700 mb-8">Jadilah bagian dari gerakan yang mewujudkan
+                                harapan bagi ribuan perempuan Indonesia dengan mengisi formulir dan mulai berkontribusi
+                                sekarang</p>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                                 <div
                                     class="flex flex-col items-center bg-pink-50 p-6 rounded-xl shadow-md hover:shadow-lg transition">
@@ -291,8 +384,7 @@
                                     <div class="bg-pink-600 p-4 rounded-full text-white mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-heart">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-heart">
                                             <path
                                                 d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                                         </svg>
@@ -306,8 +398,7 @@
                                     <div class="bg-pink-600 p-4 rounded-full text-white mb-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-users">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-users">
                                             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
@@ -339,7 +430,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="md:w-1/3 justify-center items-center hidden lg:block">
                         <div class="relative w-full h-72 md:h-96 flex justify-center items-center">
                             <div

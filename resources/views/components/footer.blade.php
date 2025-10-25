@@ -108,7 +108,7 @@
             <div>
                 <h4 class="text-lg font-semibold text-pink-400 mb-6">Hubungi Kami</h4>
                 <div class="bg-white p-4 rounded-lg mb-6 inline-block">
-                    <img src="{{ asset('assets/images/thumbnails/qris.png') }}" alt="QR Code" class="w-20 h-20" />
+                    <img src="{{ asset('assets/images/thumbnails/qr.png') }}" alt="QR Code" class="w-20 h-20" />
                 </div>
             </div>
         </div>
