@@ -403,7 +403,6 @@
 
 
         <section id="benefits" class="py-20 md:py-28 bg-white relative overflow-hidden lg:px-12">
-
             <div class="absolute top-0 right-0 w-full md:w-1/3 h-full bg-white-50 z-0"></div>
             <div class="container mx-auto px-4 relative z-10">
                 <div class="flex flex-col md:flex-row items-center gap-12">

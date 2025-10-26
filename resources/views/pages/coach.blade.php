@@ -56,7 +56,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
                         <div class="relative mb-10">
-                            <img src="assets/images/thumbnails/coach.jpg" alt="Coach training"
+                            <img src="assets/images/thumbnails/coach1.png" alt="Coach training"
                                 class="rounded-lg shadow-xl" />
                             <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
                                 <div class="flex items-center gap-3">
@@ -87,8 +87,7 @@
                                 Peran <span class="text-pink-600">Coach</span> dalam Program
                             </h2>
                             <div class="space-y-4 mb-8">
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -105,13 +104,11 @@
                                             terstruktur dan aplikatif sesuai dengan bidang keahlian</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-users">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-users">
                                             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
                                             <circle cx="9" cy="7" r="4" />
                                             <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
@@ -124,8 +121,7 @@
                                             individu maupun kelompok untuk memastikan pemahaman yang optimal</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -144,8 +140,7 @@
                                             umpan balik konstruktif untuk perkembangan peserta</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -164,13 +159,11 @@
                                             terkait industri kecantikan untuk memperkaya pembelajaran</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-heart">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-heart">
                                             <path
                                                 d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
                                         </svg>
@@ -235,7 +228,8 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Praktisi Berpengalaman</p>
                                     <p class="text-sm text-gray-600 mt-1">Terbuka untuk praktisi kecantikan, pemilik
-                                        salon, instruktur, dan profesional industri terkait</p>
+                                        salon, instruktur, atau profesional industri kecantikan yang terbiasa melakukan
+                                        pelatihan</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -261,7 +255,7 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Komitmen Waktu</p>
                                     <p class="text-sm text-gray-600 mt-1">Memiliki komitmen waktu dan kesiapan untuk
-                                        mengikuti koordinasi pelatihan</p>
+                                        terlibat mengikuti koordinasi pelatihan bersama tim program</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -274,7 +268,8 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Bersedia Terlibat Sukarela</p>
                                     <p class="text-sm text-gray-600 mt-1">Berpartisipasi secara sukarela
-                                        (non-honorarium) untuk tujuan sosial</p>
+                                        (non-honorarium), sebagai bentuk kontribusi nyata untuk tujuan sosial dan
+                                        pemberdayaan perempuan Indonesia.</p>
                                 </div>
                             </div>
                         </div>
@@ -309,8 +304,8 @@
                                 </svg>
                                 <div>
                                     <p class="font-medium text-gray-800">Spesialisasi Bidang</p>
-                                    <p class="text-sm text-gray-600 mt-1">Setiap coach hanya diperkenankan
-                                        memberikan pelatihan pada satu bidang sesuai kompetensi utamanya</p>
+                                    <p class="text-sm text-gray-600 mt-1">Setiap coach hanya akan memberikan pelatihan
+                                        pada satu bidang sesuai dengan keahlian utamanya.</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -323,9 +318,9 @@
                                     <path d="M12 8h.01" />
                                 </svg>
                                 <div>
-                                    <p class="font-medium text-gray-800">Maksimal Sesi Pelatihan</p>
-                                    <p class="text-sm text-gray-600 mt-1">Seorang coach dapat melatih maksimal dua
-                                        kali sesi pelatihan selama periode program (online/offline)</p>
+                                    <p class="font-medium text-gray-800">Jumlah Sesi Pelatihan</p>
+                                    <p class="text-sm text-gray-600 mt-1">Setiap coach memberikan pelatihan minimal 2
+                                        sesi (2–3 jam/sesi) selama periode Juni–November 2026.</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -339,8 +334,8 @@
                                 </svg>
                                 <div>
                                     <p class="font-medium text-gray-800">Penjadwalan Fleksibel</p>
-                                    <p class="text-sm text-gray-600 mt-1">Pelibatan coach dalam jadwal pelatihan
-                                        disesuaikan dengan kebutuhan, kurikulum, dan kesiapan peserta</p>
+                                    <p class="text-sm text-gray-600 mt-1">Pelaksanaan pelatihan bersama coach akan
+                                        disesuaikan dengan kebutuhan program, kurikulum, serta kesiapan peserta</p>
                                 </div>
                             </div>
                         </div>
@@ -353,12 +348,25 @@
                                     <polygon
                                         points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                                 </svg>
-                                <h4 class="font-semibold text-pink-700">Bidang Pelatihan Tersedia</h4>
+                                <h4 class="font-bold text-pink-800">Bidang Pelatihan Tersedia</h4>
                             </div>
-                            <ul class="text-sm text-pink-700 space-y-1">
-                                <li>• Beauty Specialist (Therapist)</li>
-                                <li>• Beauty Administration</li>
-                                <li>• Beauty Consultant</li>
+                            <ul class="text-sm text-pink-800 space-y-1">
+                                <li>
+                                    <span class="font-semibold">• Beauty Specialist</span>
+                                    <p class="text-sm text-pink-700 ml-6 mt-1">Menjadi ahli dalam perawatan kecantikan
+                                        seperti make up artist (MUA), penata rambut (Hair Stylist), terapis kecantikan
+                                        (Beauty Therapist), dan ahli seni kuku (Nail Artist)</p>
+                                </li>
+                                <li>
+                                    <span class="font-semibold">• Beauty Administration</span>
+                                    <p class="text-sm text-pink-700 ml-6 mt-1">Mengelola operasional salon seperti front
+                                        office, kasir, dan administrasi reservasi</p>
+                                </li>
+                                <li>
+                                    <span class="font-semibold">• Beauty Consultant</span>
+                                    <p class="text-sm text-pink-700 ml-6 mt-1">Memberikan konsultasi produk dan
+                                        pelayanan pelanggan yang prima</p>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -378,8 +386,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-graduation-cap text-pink-600">
@@ -388,13 +395,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Pengalaman Berharga</h3>
-                        <p class="text-gray-700 text-center">Pengalaman berharga dalam berbagi ilmu dan membentuk
-                            generasi praktisi dunia kecantikan baru</p>
+                        <p class="text-gray-700 text-center">Dapatkan kesempatan berharga untuk berbagi ilmu,
+                            menginspirasi, dan membentuk generasi baru praktisi di dunia kecantikan</p>
                     </div>
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-100">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-award text-pink-600">
@@ -403,13 +409,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Sertifikat Apresiasi</h3>
-                        <p class="text-gray-700 text-center">Sertifikat apresiasi sebagai bentuk penghargaan resmi
-                            atas kontribusi Anda dalam program</p>
+                        <p class="text-gray-700 text-center">Menerima sertifikat resmi sebagai bentuk penghargaan atas
+                            kontribusi Anda dalam menciptakan dampak sosial positif</p>
                     </div>
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-200">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-megaphone text-pink-600">
@@ -419,13 +424,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Publikasi Profil</h3>
-                        <p class="text-gray-700 text-center">Publikasi profil coach (dengan izin) di media sosial
-                            &amp; publikasi program untuk meningkatkan visibilitas</p>
+                        <p class="text-gray-700 text-center">Dengan izin dan persetujuan, profil Anda akan ditampilkan
+                            melalui media sosial dan publikasi resmi program untuk meningkatkan visibilitas</p>
                     </div>
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-300">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-share-2 text-pink-600">
@@ -437,13 +441,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Eksposur Media</h3>
-                        <p class="text-gray-700 text-center">Promosi salon gratis di semua platform media sosial
+                        <p class="text-gray-700 text-center">Promosi gratis salon Anda di semua platform media sosial
                             yayasan selama 1 tahun penuh</p>
                     </div>
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-400">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-smartphone text-pink-600">
@@ -452,13 +455,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Free Akses POS SalonKita</h3>
-                        <p class="text-gray-700 text-center">Free akses POS SalonKita + Marketplace selama 1 tahun
-                            senilai 4 juta rupiah</p>
+                        <p class="text-gray-700 text-center">Nikmati akses gratis sistem POS & Marketplace SalonKita
+                            selama 1 tahun senilai Rp4.000.000</p>
                     </div>
                     <div
                         class="coach-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-500">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-map-pin text-pink-600">
@@ -467,8 +469,8 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Free Akomodasi Yogyakarta</h3>
-                        <p class="text-gray-700 text-center">Free akomodasi dan experience di Yogyakarta untuk
-                            kegiatan program</p>
+                        <p class="text-gray-700 text-center">Free akomodasi dan experience di Yogyakarta
+                            untuk kegiatan program</p>
                     </div>
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto">
@@ -501,12 +503,13 @@
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
                                 🌟 Bergabung Sebagai Coach 🌟</div>
-                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Siap Menjadi Coach?</h2>
-                            <p class="text-xl text-gray-700 mb-8">📝 Tertarik menjadi coach? Isi Form Pendaftaran
-                                Coach dan mulai perjalanan menginspirasi hari ini!</p>
+                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Bergabung Menjadi Coach
+                                Inspiratif</h2>
+                            <p class="text-xl text-gray-700 mb-8">📝  Daftarkan dirimu dan jadilah bagian dari
+                                perjalanan inspiratif untuk memberdayakan 1.000 perempuan Indonesia.</p>
                             <div class="bg-pink-50 p-6 rounded-lg mb-8 border-l-4 border-pink-600">
-                                <p class="text-xl font-medium text-pink-700 italic">"Latih satu, bangkitkan banyak.
-                                    Bersama kita bisa membangun masa depan perempuan Indonesia."</p>
+                                <p class="text-xl font-medium text-pink-700 italic">“Satu pelatihan kecil hari ini, bisa
+                                    membuka ribuan peluang esok hari”</p>
                             </div>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <a href="https://bit.ly/SiapJadiCoachBeauty"

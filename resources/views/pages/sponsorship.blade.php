@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section id="roadmap" class="py-16 bg-white hidden md:block">
+        <section id="roadmap" class="py-16 bg-white lg:px-16 hidden md:block">
             <div class="container mx-auto px-4">
 
                 <div class="overflow-x-auto">

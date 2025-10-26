@@ -53,7 +53,7 @@
             <div class="absolute bottom-10 right-10 w-32 h-32 bg-pink-300 rounded-full opacity-20 animate-pulse"></div>
         </section>
 
-        <section id="roadmap" class="py-16 bg-white hidden md:block">
+        <section id="roadmap" class="py-16 bg-white hidden md:block lg:px-16">
             <div class="container mx-auto px-4">
 
                 <div class="overflow-x-auto">

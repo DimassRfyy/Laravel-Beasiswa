@@ -56,7 +56,7 @@
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
                         <div class="relative mb-10">
-                            <img src="assets/images/thumbnails/mentor.jpg" alt="Mentor guidance"
+                            <img src="assets/images/thumbnails/banner4.jpg" alt="Mentor guidance"
                                 class="rounded-lg shadow-xl" />
                             <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg">
                                 <div class="flex items-center gap-3">
@@ -87,8 +87,7 @@
                                 Peran <span class="text-pink-600">Mentor</span> dalam Program
                             </h2>
                             <div class="space-y-4 mb-8">
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -106,8 +105,7 @@
                                             berkala untuk menjaga semangat dan motivasi peserta</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -123,13 +121,11 @@
                                             peserta untuk berbagi pengalaman, kekhawatiran, dan harapan</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
-                                            strokeLinecap="round" strokeLinejoin="round"
-                                            class="lucide lucide-target">
+                                            strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-target">
                                             <circle cx="12" cy="12" r="10" />
                                             <circle cx="12" cy="12" r="6" />
                                             <circle cx="12" cy="12" r="2" />
@@ -142,8 +138,7 @@
                                             dan merayakan progres mereka selama program berlangsung</p>
                                     </div>
                                 </div>
-                                <div
-                                    class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
+                                <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
                                     <div class="bg-pink-100 p-2 rounded-full text-pink-600 mr-4 flex-shrink-0">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
@@ -200,8 +195,8 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Terbuka untuk Semua Latar Belakang Profesi
                                     </p>
-                                    <p class="text-sm text-gray-600 mt-1">Tidak ada batasan profesi khusus, semua
-                                        orang dengan kepedulian dapat berkontribusi</p>
+                                    <p class="text-sm text-gray-600 mt-1">Tidak ada batasan profesi khusus, Anda yang
+                                        memiliki kepedulian dan semangat berbagi dapat berkontribusi</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -214,8 +209,8 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Memiliki Empati, Kesabaran, dan Kemauan
                                         Mendengarkan</p>
-                                    <p class="text-sm text-gray-600 mt-1">Kemampuan untuk memahami dan mendengarkan
-                                        dengan penuh perhatian</p>
+                                    <p class="text-sm text-gray-600 mt-1">Mampu memahami, mendengarkan dengan penuh
+                                        perhatian, serta memberikan dukungan yang tulus</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -228,8 +223,8 @@
                                 <div>
                                     <p class="font-medium text-gray-800">Mampu Meluangkan Waktu Minimal 1 Kali dalam
                                         2 Minggu</p>
-                                    <p class="text-sm text-gray-600 mt-1">Komitmen waktu yang konsisten selama
-                                        program berlangsung</p>
+                                    <p class="text-sm text-gray-600 mt-1">Memiliki komitmen waktu yang konsisten untuk
+                                        terlibat secara aktif selama program berlangsung</p>
                                 </div>
                             </div>
                             <div class="criteria-card flex items-start p-4 bg-pink-50 rounded-lg">
@@ -241,8 +236,8 @@
                                 </svg>
                                 <div>
                                     <p class="font-medium text-gray-800">Bersedia Terlibat Secara Sukarela</p>
-                                    <p class="text-sm text-gray-600 mt-1">Berpartisipasi tanpa honorarium untuk
-                                        tujuan sosial yang mulia</p>
+                                    <p class="text-sm text-gray-600 mt-1">Berpartisipasi secara sukarela
+                                        (non-honorarium), sebagai bentuk kontribusi nyata untuk tujuan sosial</p>
                                 </div>
                             </div>
                         </div>
@@ -259,10 +254,9 @@
                                 <h4 class="font-semibold text-pink-700 text-lg">Yang Terpenting</h4>
                             </div>
                             <p class="text-pink-700">
-                                Tidak perlu menjadi psikolog profesional. Yang dibutuhkan adalah <strong>hati yang
-                                    tulus</strong>, <strong>telinga yang mau mendengar</strong>, dan <strong>komitmen
-                                    untuk mendampingi</strong> perjalanan mereka menuju
-                                kemandirian.
+                                Tidak perlu menjadi psikolog profesional, cukup hadir dengan <strong>hati yang
+                                    tulus</strong>, telinga yang <strong>mau mendengar</strong>, dan
+                                <strong>komitmen</strong> dalam mendampingi perjalanan mereka menuju kemandirian.
                             </p>
                         </div>
                     </div>
@@ -282,8 +276,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-heart text-pink-600">
@@ -297,8 +290,7 @@
                     </div>
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-100">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-megaphone text-pink-600">
@@ -308,13 +300,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Eksposur Media</h3>
-                        <p class="text-gray-700 text-center">Promosi salon gratis di semua platform media sosial
-                            yayasan selama 1 tahun penuh (Bagi Pemilik Salon)</p>
+                        <p class="text-gray-700 text-center">Dapatkan promosi gratis untuk salon Anda di seluruh
+                            platform media sosial yayasan selama 1 tahun penuh (Khusus untuk Pemilik Salon)</p>
                     </div>
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-200">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-smartphone text-pink-600">
@@ -323,13 +314,12 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Free Akses POS SalonKita</h3>
-                        <p class="text-gray-700 text-center">Free akses POS SalonKita + Marketplace selama 1 tahun
-                            senilai 4 juta rupiah (Bagi Pemilik Salon)</p>
+                        <p class="text-gray-700 text-center">Nikmati akses gratis sistem POS & Marketplace SalonKita
+                            selama 1 tahun senilai Rp4.000.000 (Khusus untuk Pemilik Salon)</p>
                     </div>
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-300">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-map-pin text-pink-600">
@@ -343,8 +333,7 @@
                     </div>
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-400">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-award text-pink-600">
@@ -358,8 +347,7 @@
                     </div>
                     <div
                         class="mentor-benefit bg-white rounded-xl p-6 shadow-lg border border-pink-100 animate-fade-in-up js-animate delay-500">
-                        <div
-                            class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-pink-100 rounded-full flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                 strokeLinejoin="round" class="lucide lucide-users text-pink-600">
@@ -370,8 +358,8 @@
                             </svg>
                         </div>
                         <h3 class="text-xl font-bold text-gray-800 mb-3 text-center">Relasi dan Jaringan</h3>
-                        <p class="text-gray-700 text-center">Relasi dan jaringan dengan mentor lain dan tim program
-                            untuk pengembangan diri</p>
+                        <p class="text-gray-700 text-center">Bangun koneksi dengan mentor lain dan tim program untuk
+                            pengembangan diri</p>
                     </div>
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto">
@@ -392,9 +380,9 @@
                             </div>
                             <h3 class="text-2xl font-bold text-gray-800 mb-4">Dampak yang Tak Ternilai</h3>
                             <p class="text-lg text-gray-700">
-                                Menjadi mentor bukan hanya tentang memberi, tetapi juga tentang menerima. Anda akan
-                                merasakan kepuasan batin yang luar biasa ketika melihat peserta tumbuh dan berkembang
-                                berkat dukungan Anda.
+                                Menjadi mentor bukan hanya soal memberi, tetapi juga tentang tumbuh bersama. Anda akan
+                                merasakan kepuasan batin yang mendalam saat melihat peserta berkembang, menemukan
+                                percaya diri, dan melangkah menuju kemandirian berkat dukungan Anda
                             </p>
                         </div>
                     </div>
@@ -410,12 +398,14 @@
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
                                 🌟 Bergabung Sebagai Mentor 🌟</div>
-                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Siap Menjadi Mentor?</h2>
-                            <p class="text-xl text-gray-700 mb-8">📝 Tertarik menjadi mentor? Isi Form Pendaftaran
-                                Mentor dan mulailah memberi dampak hari ini!</p>
+                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Ambil Langkah Awal Menuju
+                                Perubahan</h2>
+                            <p class="text-xl text-gray-700 mb-8">📝 Jadilah mentor dengan mengisi formulir pendaftaran
+                                mentor dan mulailah memberikan dampak nyata bagi masa depan perempuan Indonesia hari
+                                ini!</p>
                             <div class="bg-pink-50 p-6 rounded-lg mb-8 border-l-4 border-pink-600">
-                                <p class="text-xl font-medium text-pink-700 italic">"Satu sesi mentoring bisa
-                                    membuka seribu pintu perubahan. Yuk, bantu mereka melangkah lebih jauh!"</p>
+                                <p class="text-xl font-medium text-pink-700 italic">"Setiap sesi mentoring adalah
+                                    percikan kecil yang mampu menyalakan api besar perubahan"</p>
                             </div>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <a href="https://bit.ly/SiapJadiMentorBeauty"

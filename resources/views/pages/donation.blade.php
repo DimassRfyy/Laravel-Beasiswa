@@ -5,49 +5,146 @@
     <x-navbar />
 
     <main>
-        <section class="relative py-16 md:py-24 overflow-hidden">
+        <section class="relative py-16 md:py-24 overflow-hidden lg:px-16">
             <div class="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?q=80&w=2070&auto=format&fit=crop"
                     alt="Beauty background" class="w-full h-full object-cover opacity-10" />
                 <div class="absolute inset-0 bg-gradient-to-r from-pink-50 to-white opacity-90"></div>
             </div>
+
             <div class="container mx-auto px-4 relative z-10">
-                <div class="text-center max-w-4xl mx-auto">
-                    <div class="animate-fade-in-up">
-                        <div
-                            class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
-                            💖 Program Donasi 💖</div>
-                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-6 leading-tight">
-                            Satu Donasi, <br />
-                            <span class="text-gray-800">Seribu Harapan</span>
-                        </h1>
-                        <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                            Banyak perempuan berhenti sekolah terlalu dini, bukan karena mereka tidak mampu, tetapi
-                            karena kesempatan yang hilang. Melalui Program 1.000 Beasiswa Beauty Artist, kami memberikan
-                            mereka keterampilan, keyakinan diri, dan
-                            peluang untuk membangun masa depan yang lebih baik.
-                        </p>
-                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a href="#donation-form"
-                                class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
-                                Donasi Sekarang
-                            </a>
-                            <a href="#about-donation"
-                                class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
-                                Pelajari Lebih Lanjut
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" class="lucide lucide-chevron-right ml-2">
-                                    <path d="m9 18 6-6-6-6" />
-                                </svg>
-                            </a>
+                <div class="flex flex-col lg:flex-row items-center gap-8">
+                    <!-- Left: Content -->
+                    <div class="w-full lg:w-1/2 text-center lg:text-left">
+                        <div class="animate-fade-in-up">
+                            <div
+                                class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
+                                💖 Program Donasi 💖</div>
+                            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-6 leading-tight">Satu
+                                Donasi, <br />
+                                <span class="text-gray-800">Seribu Harapan</span>
+                            </h1>
+                            <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto lg:mx-0">Banyak perempuan putus
+                                sekolah karena kehilangan kesempatan. Program 1.000 Beasiswa Beauty Artist memberi
+                                keterampilan, percaya diri, dan peluang kerja.
+                            </p>
+                            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                <a href="#donation-form"
+                                    class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">Kirim
+                                    Bukti Donasi</a>
+                                <a href="#about-donation"
+                                    class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">Pelajari
+                                    Lebih Lanjut
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" class="lucide lucide-chevron-right ml-2">
+                                        <path d="m9 18 6-6-6-6" />
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Right: QR Image only -->
+                    <div class="w-full lg:w-1/2 flex justify-center items-center">
+                        <img src="assets/images/logos/new-qr.jpg"
+                            alt="QR code untuk donasi Program 1.000 Beasiswa Beauty Artist" loading="lazy"
+                            class="w-64 sm:w-80 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain" />
                     </div>
                 </div>
             </div>
 
             <div class="absolute top-20 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-20 animate-pulse"></div>
-            <div class="absolute bottom-10 right-10 w-32 h-32 bg-pink-300 rounded-full opacity-20 animate-pulse">
+            <div class="absolute bottom-10 right-10 w-32 h-32 bg-pink-300 rounded-full opacity-20 animate-pulse"></div>
+        </section>
+
+        <section id="roadmap" class="py-16 bg-white hidden md:block lg:px-16">
+            <div class="container mx-auto px-4">
+
+                <div class="overflow-x-auto">
+                    <div class="flex flex-col gap-6">
+                        <!-- top row: images + arrows -->
+                        <div class="flex items-center gap-6 lg:gap-12 justify-center py-6">
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap5.png" alt="Roadmap 1"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap2.png" alt="Roadmap 2"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap3.png" alt="Roadmap 3"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+
+                            <!-- arrow -->
+                            <div class="hidden md:flex items-center">
+                                <img src="assets/images/thumbnails/arrow-left.png" alt="arrow"
+                                    class="w-8 h-8 transform opacity-80" />
+                            </div>
+
+                            <div class="flex-shrink-0 w-48">
+                                <img src="assets/images/thumbnails/roadmap4.png" alt="Roadmap 4"
+                                    class="w-full h-auto rounded-lg" />
+                            </div>
+                        </div>
+
+                        <!-- bottom row: captions aligned under images -->
+                        <div class="flex items-start gap-6 lg:gap-12 justify-center">
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Dukungan Anda</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Finansial</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Pelaksanaan Program</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Pelatihan & Magang</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">1.000 Talenta Berkualitas</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Tersertifikasi & Siap Bekerja</div>
+                            </div>
+
+                            <!-- placeholder for arrow spacing -->
+                            <div class="hidden md:block w-8"></div>
+
+                            <div class="flex-shrink-0 w-48 text-center">
+                                <div class="px-3 py-2 rounded text-white font-semibold text-sm"
+                                    style="background:#DB2777">Dampak Berkelanjutan</div>
+                                <div class="mt-2 px-3 py-2 rounded text-gray-800 text-sm" style="background:#FBD2E9">
+                                    Mendorong Kemandirian Ekonomi</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -55,11 +152,25 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
-                        <div class="relative mb-10">
-                            <img src="assets/images/thumbnails/donation_ilustration3.jpg" alt="Donation impact"
-                                class="rounded-lg shadow-xl" />
+                        <div class="grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-lg xl:max-w-xl">
+                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/donasi1.png" alt="Beauty student 1"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/donasi2.png" alt="Beauty student 2"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/donasi3.png" alt="Beauty student 3"
+                                    class="w-full h-full object-cover" />
+                            </div>
+                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                <img src="assets/images/thumbnails/donasi4.png" alt="Beauty student 4"
+                                    class="w-full h-full object-cover" />
+                            </div>
                         </div>
-                        <div class="bg-pink-50 p-6 rounded-lg border-l-4 border-pink-600">
+                        <div class="bg-pink-50 p-6 mt-5 rounded-lg border-l-4 border-pink-600">
                             <div class="flex items-center mb-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
@@ -72,15 +183,16 @@
                                 <h4 class="font-semibold text-pink-600">Tahukah Anda?</h4>
                             </div>
                             <p class="text-gray-700">
-                                <strong>Setiap Rp100.000</strong> yang Anda berikan dapat mengubah hidup seseorang dan
+                                Satu donasi kecil yang Anda berikan bermakna besar untuk mengubah hidup seseorang dan
                                 memberikan mereka kesempatan untuk mandiri secara ekonomi.
                             </p>
                         </div>
                     </div>
                     <div class="md:w-1/2">
                         <div class="animate-fade-in-up js-animate">
-                            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                                Dengan Berdonasi, <span class="text-pink-600">Anda Membantu</span>
+                            <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-6">
+                                Setiap <span class="text-pink-600">Donasi</span> Anda Membawa Perubahan dan Mengubah
+                                Hidup Perempuan Indonesia
                             </h2>
                             <div class="space-y-4 mb-8">
                                 <div class="flex items-start bg-white p-4 rounded-lg shadow-sm border border-pink-100">
@@ -141,37 +253,47 @@
             </div>
         </section>
 
-        <section class="py-6 bg-gradient-to-r from-pink-50 to-white">
+        <section class="py-20 bg-gradient-to-r from-pink-50 to-white px-2">
             <div class="container mx-auto px-4">
-                <div class="max-w-4xl mx-auto">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <!-- Top headline -->
+                    <h3 class="text-lg md:text-2xl font-semibold text-[#DB2777] mb-6">23,85 Juta Penduduk Indonesia
+                        Hidup
+                        di Bawah Garis Kemiskinan</h3>
 
-                        <div class="md:w-1/2">
-                            <div class="animate-scale">
-                                <img src="assets/images/thumbnails/donation.png" alt="Ilustrasi Donasi"
-                                    class="w-full h-auto max-w-xs mx-auto" />
+                    <!-- Three statistic circles -->
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-6">
+                        <div class="flex flex-col items-center text-center">
+                            <div
+                                class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-[#9D174D] flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl md:text-2xl font-bold">4.678</span>
                             </div>
+                            <h4 class="mt-4 text-[#9D174D] font-semibold">Perempuan & Anak</h4>
+                            <p class="mt-1 text-sm text-[#EC4899] max-w-xs">Menjadi Korban Tindak Pidana Perdagangan
+                                Orang (TPPO)</p>
                         </div>
-
-                        <div class="md:w-1/2 text-center md:text-left">
-                            <div class="animate-fade-in-up">
-                                <h3 class="text-2xl md:text-3xl font-bold text-pink-600 mb-4">Donasi Anda, Harapan
-                                    Mereka</h3>
-                                <p class="text-gray-700 mb-6 text-lg">Setiap kontribusi Anda membantu mewujudkan
-                                    mimpi perempuan Indonesia untuk berkarir di industri kecantikan.</p>
-                                <a href="/donation"
-                                    class="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 shadow-lg">
-                                    Donasi Sekarang
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                        strokeLinejoin="round" class="lucide lucide-heart inline ml-2">
-                                        <path
-                                            d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z" />
-                                    </svg>
-                                </a>
+                        <div class="flex flex-col items-center text-center">
+                            <div
+                                class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-[#9D174D] flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl md:text-2xl font-bold">5,73 Juta</span>
                             </div>
+                            <h4 class="mt-4 text-[#9D174D] font-semibold">Perempuan</h4>
+                            <p class="mt-1 text-sm text-[#EC4899] max-w-xs">Tidak mendapatkan akses pendidikan
+                                maupun pelatihan</p>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div
+                                class="w-36 h-36 md:w-44 md:h-44 rounded-full bg-[#9D174D] flex items-center justify-center shadow-lg">
+                                <span class="text-white text-xl md:text-2xl font-bold">11,5 Juta</span>
+                            </div>
+                            <h4 class="mt-4 text-[#9D174D] font-semibold">Perempuan</h4>
+                            <p class="mt-1 text-sm text-[#EC4899] max-w-xs">menjadi tulang punggung keluarga</p>
                         </div>
                     </div>
+
+                    <!-- Small note or CTA (optional) -->
+                    <p class="text-sm text-gray-600">Data di atas memberikan gambaran tentang ketimpangan akses
+                        pendidikan dan pelatihan bagi perempuan; program donasi membantu mengurangi kesenjangan ini.</p>
                 </div>
             </div>
         </section>
@@ -184,13 +306,13 @@
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
                                 💖 Ubah Hidup Seseorang 💖</div>
-                            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Siap Berdonasi?</h2>
-                            <p class="text-xl text-gray-700 mb-8">💫 Scan QRIS di samping untuk berdonasi dengan mudah.
+                            <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-6">Mari kontribusi sekarang untuk
+                                masa depan perempuan Indonesia</h2>
+                            <p class="text-lg text-gray-700 mb-8">💫 Scan QRIS di samping untuk berdonasi dengan mudah.
                                 Setiap kontribusi akan langsung disalurkan untuk program beasiswa.</p>
                             <div class="bg-pink-50 p-6 rounded-lg mb-8 border-l-4 border-pink-600">
-                                <p class="text-xl font-medium text-pink-700 italic">"Setiap Rp100.000 yang Anda berikan
-                                    dapat mengubah hidup seseorang dan memberikan mereka kesempatan untuk mandiri secara
-                                    ekonomi."</p>
+                                <p class="text-lg font-medium text-pink-700 italic">"Setiap niat kecil untuk berbagi
+                                    bisa membawa perubahan besar dalam mengubah hidup seseorang."</p>
                             </div>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <a href="https://wa.me/6281234567890?text=Halo,%20saya%20sudah%20melakukan%20donasi%20untuk%20Program%201000%20Beasiswa%20Beauty%20Artist.%20Berikut%20bukti%20transfernya:"
@@ -209,8 +331,7 @@
 
                     <div class="lg:w-1/3 justify-center items-center">
                         <div class="relative w-full h-72 md:h-96 flex justify-center items-center">
-                            <div
-                                class="bg-white rounded-2xl shadow-xl w-full h-72 md:h-96 flex flex-col justify-center items-center border border-pink-100">
+                            <div class="w-full h-72 md:h-96">
                                 <img src="assets/images/logos/new-qr.jpg" alt="QR Code Donasi"
                                     class="w-full h-full object-contain rounded-lg" />
                             </div>
