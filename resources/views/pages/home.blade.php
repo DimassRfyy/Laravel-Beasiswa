@@ -30,10 +30,22 @@
                                     class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                     Daftar Sekarang
                                 </a>
-                                <a href="#about"
+
+                                <a href="/donation"
+                                    class="hidden sm:inline-flex items-center justify-center bg-pink-600 text-white font-semibold px-6 py-3 rounded-full border border-pink-200 hover:bg-pink-600 hover:text-white transform hover:scale-105 transition duration-300">
+                                    Donasi
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="ml-2">
+                                        <path
+                                            d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8L12 21l7.8-7.6a5.5 5.5 0 0 0 .0-7.8z" />
+                                    </svg>
+                                </a>
+
+                                <a href="#sponsorship"
                                     class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
-                                    Pelajari Lebih Lanjut
-                                    <svg xmlns="http://www.w3.org/2000/svg" width=18 height=18 viewBox="0 0 24 24"
+                                    Sponsorship
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" class="lucide lucide-chevron-right ml-2">
                                         <path d="m9 18 6-6-6-6" />
@@ -75,15 +87,15 @@
                 <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
                     <div class="">
                         <img src="assets/images/logos/c.jpg" alt="Partner 1"
-                            class="h-16 md:h-20 w-auto object-contain" />
+                            class="h-16 md:h-28 w-auto object-contain" />
                     </div>
                     <div class="">
                         <img src="assets/images/logos/e.jpg" alt="Partner 2"
-                            class="h-16 md:h-20 w-auto object-contain" />
+                            class="h-16 md:h-36 w-auto object-contain" />
                     </div>
                     <div class="">
                         <img src="assets/images/logos/logo.png" alt="Partner 3"
-                            class="h-16 md:h-20 w-auto object-contain" />
+                            class="h-16 md:h-28 w-auto object-contain" />
                     </div>
                 </div>
             </div>

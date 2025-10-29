@@ -118,7 +118,8 @@
                                     </div>
                                 </div>
 
-                                <div class="article-content prose prose-lg max-w-none" style="ol { list-style-type: decimal; margin-left: 1.5em; } li { margin-bottom: 0.5em; } p { margin-bottom: 1.25em; }">
+                                <div class="article-content prose prose-lg max-w-none"
+                                    style="ol { list-style-type: decimal; margin-left: 1.5em; } li { margin-bottom: 0.5em; } p { margin-bottom: 1.25em; }">
                                     {!! $blog->content !!}
                                 </div>
                             </div>
@@ -139,16 +140,18 @@
                                     </h3>
                                     <div class="space-y-4">
                                         @foreach ($otherBlogs as $otherBlog)
-                                            <a href="{{ route('blog.detail', $otherBlog->slug) }}" class="group">
+                                            <a href="{{ route('blog.detail', $otherBlog->slug) }}" class="group block py-1">
                                                 <div class="flex gap-3">
                                                     <img src="{{ Storage::url($otherBlog->thumbnail) ?? 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?q=80&w=2070&auto=format&fit=crop' }}"
-                                                        alt="{{ $otherBlog->title }}" class="w-16 h-16 object-cover rounded-lg">
+                                                        alt="{{ $otherBlog->title }}"
+                                                        class="w-16 h-16 object-cover rounded-lg">
                                                     <div class="flex-1">
                                                         <h4
                                                             class="text-sm font-semibold text-gray-800 group-hover:text-pink-600 transition duration-200 line-clamp-2">
                                                             {{ $otherBlog->title }}
                                                         </h4>
-                                                        <p class="text-xs text-gray-500 mt-1">{{ $otherBlog->created_at->format('d M Y') }}</p>
+                                                        <p class="text-xs text-gray-500 mt-1">
+                                                            {{ $otherBlog->created_at->format('d M Y') }}</p>
                                                     </div>
                                                 </div>
                                             </a>
