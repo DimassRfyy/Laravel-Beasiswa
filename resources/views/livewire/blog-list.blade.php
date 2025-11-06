@@ -93,8 +93,12 @@
                             </p>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center">
-                                    <img src="https://ui-avatars.com/api/?name={{ urlencode($blog->user->name ?? 'Anonim') }}&background=pink&color=fff"
-                                        alt="Author" class="w-8 h-8 rounded-full object-cover mr-2">
+                                    <img src="{{ ($blog->user && $blog->user->avatar)
+            ? Storage::url($blog->user->avatar)
+            : 'https://ui-avatars.com/api/?name=' . urlencode($blog->user->name ?? 'Anonim') . '&background=pink&color=fff' }}"
+                                        alt="{{ $blog->user->name ?? 'Anonim' }}" loading="lazy" decoding="async"
+                                        onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name={{ urlencode($blog->user->name ?? 'Anonim') }}&background=pink&color=fff'"
+                                        class="w-8 h-8 rounded-full object-cover mr-2" />
                                     <span class="text-xs text-gray-500">{{ $blog->user->name ?? 'Anonim' }}</span>
                                 </div>
                                 <a href="#"

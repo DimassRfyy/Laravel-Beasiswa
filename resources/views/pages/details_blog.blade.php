@@ -46,12 +46,16 @@
 
                                 <div class="flex flex-wrap items-center gap-6 mb-8 text-gray-600">
                                     <div class="flex items-center">
-                                        <img src="https://ui-avatars.com/api/?name={{ urlencode($blog->user->name ?? 'Anonim') }}&background=pink&color=fff"
+                                        <img src="{{ ($blog->user && $blog->user->avatar)
+            ? Storage::url($blog->user->avatar)
+            : 'https://ui-avatars.com/api/?name=' . urlencode($blog->user->name ?? 'Anonim') . '&background=pink&color=fff' }}"
+                                        alt="{{ $blog->user->name ?? 'Anonim' }}" loading="lazy" decoding="async"
+                                        onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name={{ urlencode($blog->user->name ?? 'Anonim') }}&background=pink&color=fff'"
                                             alt="{{ $blog->user->name ?? 'Anonim' }}"
                                             class="w-12 h-12 rounded-full object-cover mr-3">
                                         <div>
                                             <p class="font-medium text-gray-800">{{ $blog->user->name ?? 'Anonim' }}</p>
-                                            <p class="text-sm text-gray-500">Beauty Expert & Trainer</p>
+                                            <p class="text-sm text-gray-500">{{ $blog->user->occupation }}</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center text-sm">
