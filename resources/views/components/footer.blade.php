@@ -88,8 +88,7 @@
                             </svg>
                         </div>
                         <div>
-                            <div>+62 821-2507-4700 (Admin WMM)</div>
-                            <div>+62 811-6130-745 (Hertauli)</div>
+                            <div>+62 821-2507-4700</div>
                         </div>
                     </li>
                     <li class="flex items-center">

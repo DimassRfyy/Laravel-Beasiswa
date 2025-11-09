@@ -28,7 +28,7 @@
                             Artist.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                            <a href="#coach-form"
+                            <a href="https://bit.ly/SiapJadiCoachBeauty"
                                 class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                 📝 Isi Form Pendaftaran Coach
                             </a>

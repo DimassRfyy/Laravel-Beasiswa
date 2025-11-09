@@ -18,7 +18,7 @@
                         <div class="animate-fade-in-up js-animate">
                             <div
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
-                                Program Beasiswa 2025</div>
+                                Program Beasiswa 2026</div>
                             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-6 leading-tight">
                                 1000 Beasiswa <br />
                                 <span class="text-gray-800">Beauty Artist</span>
@@ -26,7 +26,7 @@
                             <p class="text-xl text-gray-700 mb-8 max-w-lg">Pelatihan menjadi Beauty Artist Sebagai Jalan
                                 Menuju Kemandirian Ekonomi Perempuan.</p>
                             <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="#apply"
+                                <a href="https://bit.ly/Pendaftaran1000BeasiswaBeautyArtist"
                                     class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                     Daftar Sekarang
                                 </a>
@@ -42,7 +42,7 @@
                                     </svg>
                                 </a>
 
-                                <a href="#sponsorship"
+                                <a href="/sponsorship"
                                     class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
                                     Sponsorship
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
@@ -267,15 +267,6 @@
                                     <span class="text-sm">Perawatan tubuh menyeluruh</span>
                                 </li>
                             </ul>
-                            <a href="#apply"
-                                class="inline-flex items-center text-pink-600 font-medium hover:text-pink-700 transition duration-200">
-                                Daftar Sekarang
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-chevron-right ml-1">
-                                    <path d="m9 18 6-6-6-6" />
-                                </svg>
-                            </a>
                         </div>
                     </div>
 
@@ -332,15 +323,6 @@
                                     <span class="text-sm">Pengelolaan reservasi</span>
                                 </li>
                             </ul>
-                            <a href="#apply"
-                                class="inline-flex items-center text-pink-600 font-medium hover:text-pink-700 transition duration-200">
-                                Daftar Sekarang
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-chevron-right ml-1">
-                                    <path d="m9 18 6-6-6-6" />
-                                </svg>
-                            </a>
                         </div>
                     </div>
 
@@ -398,21 +380,11 @@
                                     <span class="text-sm">Strategi penjualan produk</span>
                                 </li>
                             </ul>
-                            <a href="#apply"
-                                class="inline-flex items-center text-pink-600 font-medium hover:text-pink-700 transition duration-200">
-                                Daftar Sekarang
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="lucide lucide-chevron-right ml-1">
-                                    <path d="m9 18 6-6-6-6" />
-                                </svg>
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
 
         <section id="benefits" class="py-20 md:py-28 bg-white relative overflow-hidden lg:px-12">
             <div class="absolute top-0 right-0 w-full md:w-1/3 h-full bg-white-50 z-0"></div>
@@ -688,7 +660,6 @@
             </div>
         </section>
 
-
         <section id="timeline" class="py-20 md:py-28 bg-pink-50">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-16 animate-fade-in-up js-animate">
@@ -723,7 +694,7 @@
                                     </div>
                                     <div
                                         class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                        Agustus - Desember 2025</div>
+                                        Oktober 2025 - Februari 2026</div>
                                     <p class="text-gray-700">Periode pendaftaran program beasiswa</p>
                                 </div>
                             </div>
@@ -754,7 +725,7 @@
                                     </div>
                                     <div
                                         class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                        Agustus 2025 - Januari 2026</div>
+                                        Januari - Maret 2026</div>
                                     <p class="text-gray-700">Proses seleksi berkas pendaftaran</p>
                                 </div>
                             </div>
@@ -783,7 +754,7 @@
                                     </div>
                                     <div
                                         class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                        Februari 2026</div>
+                                        Februari - Juni 2026</div>
                                     <p class="text-gray-700">Proses wawancara dengan kandidat terpilih</p>
                                 </div>
                             </div>
@@ -810,7 +781,7 @@
                                     </div>
                                     <div
                                         class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                        Maret 2026</div>
+                                        Juni 2026</div>
                                     <p class="text-gray-700">Pengumuman peserta yang lolos seleksi</p>
                                 </div>
                             </div>
@@ -858,7 +829,7 @@
                                 <h3 class="text-xl font-semibold text-pink-600 mb-2">Pendaftaran Dibuka</h3>
                                 <div
                                     class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                    Agustus - Desember 2025</div>
+                                    Oktober 2025 - Februari 2026</div>
                                 <p class="text-gray-700">Periode pendaftaran program beasiswa</p>
                             </div>
                         </div>
@@ -872,7 +843,7 @@
                                 <h3 class="text-xl font-semibold text-pink-600 mb-2">Seleksi Berkas</h3>
                                 <div
                                     class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                    Agustus 2025 - Januari 2026</div>
+                                    Januari - Maret 2026</div>
                                 <p class="text-gray-700">Proses seleksi berkas pendaftaran</p>
                             </div>
                         </div>
@@ -886,7 +857,7 @@
                                 <h3 class="text-xl font-semibold text-pink-600 mb-2">Wawancara Online</h3>
                                 <div
                                     class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                    Februari 2026</div>
+                                    Februari - Juni 2026</div>
                                 <p class="text-gray-700">Proses wawancara dengan kandidat terpilih</p>
                             </div>
                         </div>
@@ -900,7 +871,7 @@
                                 <h3 class="text-xl font-semibold text-pink-600 mb-2">Pengumuman Peserta</h3>
                                 <div
                                     class="bg-pink-50 text-pink-600 text-sm font-medium py-1 px-3 rounded-full inline-block mb-2">
-                                    Maret 2026</div>
+                                    Juni 2026</div>
                                 <p class="text-gray-700">Pengumuman peserta yang lolos seleksi</p>
                             </div>
                         </div>
@@ -922,7 +893,6 @@
                 </div>
             </div>
         </section>
-
 
         <section class="py-16 md:py-20 bg-gradient-to-r from-pink-50 to-white lg:px-12 px-2">
             <div class="container mx-auto px-4">
@@ -1008,7 +978,7 @@
                                 </div>
 
                                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                    <a href="mentor.html"
+                                    <a href="/mentor"
                                         class="inline-block bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                         Join Mentor
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1021,7 +991,7 @@
                                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                         </svg>
                                     </a>
-                                    <a href="coach.html"
+                                    <a href="/coach"
                                         class="inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-600 hover:text-white transition duration-300 text-center shadow-lg">
                                         Join Coach
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1112,7 +1082,7 @@
                                 </div>
 
                                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                    <a href="coach.html"
+                                    <a href="/donation"
                                         class="inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-600 hover:text-white transition duration-300 text-center shadow-lg">
                                         Donasi
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1125,7 +1095,7 @@
                                             <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
                                         </svg>
                                     </a>
-                                    <a href="mentor.html"
+                                    <a href="/sponsorship"
                                         class="inline-block bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                         Sponsorship
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
@@ -1138,7 +1108,7 @@
                                             <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                                         </svg>
                                     </a>
-                                    <a href="mentor.html"
+                                    <a href="/partnership"
                                         class="inline-block bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                         Partnership
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"

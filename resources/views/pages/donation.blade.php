@@ -29,9 +29,9 @@
                                 keterampilan, percaya diri, dan peluang kerja.
                             </p>
                             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <a href="#donation-form"
-                                    class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">Kirim
-                                    Bukti Donasi</a>
+                                <button type="button"
+                                    class="openDonationModal inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">Kirim
+                                    Bukti Donasi</button>
                                 <a href="#about-donation"
                                     class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">Pelajari
                                     Lebih Lanjut
@@ -315,8 +315,9 @@
                                     bisa membawa perubahan besar dalam mengubah hidup seseorang."</p>
                             </div>
                             <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="https://wa.me/6281234567890?text=Halo,%20saya%20sudah%20melakukan%20donasi%20untuk%20Program%201000%20Beasiswa%20Beauty%20Artist.%20Berikut%20bukti%20transfernya:"
-                                    class="inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-50 transition duration-300 text-center">
+                                <!-- Button to open donation modal -->
+                                <button type="button"
+                                    class="openDonationModal inline-flex items-center justify-center bg-white text-pink-600 font-bold px-8 py-4 rounded-full border-2 border-pink-600 hover:bg-pink-50 transition duration-300 text-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
                                         strokeLinejoin="round" class="lucide lucide-mail mr-2">
@@ -324,7 +325,7 @@
                                         <path d="m22 7-10 5L2 7" />
                                     </svg>
                                     Kirim Bukti Donasi
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -340,6 +341,134 @@
                 </div>
             </div>
         </section>
+
+        <div id="donationModal" class="fixed inset-0 z-50 hidden items-center justify-center px-4">
+            <div class="fixed inset-0 bg-black bg-opacity-50" id="donationModalOverlay"></div>
+            <div class="bg-white rounded-lg shadow-lg max-w-lg w-full relative z-10 overflow-hidden">
+                <div class="flex items-center justify-between px-6 py-4 border-b">
+                    <h3 class="text-lg font-semibold text-gray-800">Kirim Bukti Donasi</h3>
+                    <button id="closeDonationModal" class="text-gray-500 hover:text-gray-800">✕</button>
+                </div>
+                <form id="donationForm" class="px-6 py-4 space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Nama</label>
+                        <input type="text" id="donorName" required
+                            class="mt-1 block w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Jumlah Donasi
+                            (Rp)</label>
+                        <input type="number" id="donationAmount" min="0" required
+                            class="mt-1 block w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Waktu
+                            Donasi</label>
+                        <input type="datetime-local" id="donationTime" required
+                            class="mt-1 block w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200" />
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Catatan
+                            (opsional)</label>
+                        <textarea id="donationNote" rows="3"
+                            class="mt-1 block w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-200"></textarea>
+                    </div>
+
+                    <div class="flex items-center justify-end gap-3 pt-2">
+                        <button type="button" id="cancelDonation"
+                            class="px-4 py-2 rounded-md bg-gray-100 text-gray-700">Batal</button>
+                        <button type="submit" class="px-4 py-2 rounded-md bg-pink-600 text-white font-semibold">Kirim
+                            ke WhatsApp</button>
+                    </div>
+                    <p class="text-xs text-gray-500">Setelah menekan "Kirim ke WhatsApp" akan
+                        membuka WhatsApp dengan pesan yang sudah diisi. Anda masih bisa
+                        menambahkan file bukti transfer secara manual di WhatsApp sebelum
+                        mengirim.</p>
+                </form>
+            </div>
+        </div>
+
     </main>
+
+    <script>
+        (function () {
+            const openBtns = document.querySelectorAll('.openDonationModal');
+            const modal = document.getElementById('donationModal');
+            const overlay = document.getElementById('donationModalOverlay');
+            const closeBtn = document.getElementById('closeDonationModal');
+            const cancelBtn = document.getElementById('cancelDonation');
+            const form = document.getElementById('donationForm');
+
+            function showModal() {
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            }
+
+            function hideModal() {
+                modal.classList.remove('flex');
+                modal.classList.add('hidden');
+            }
+
+            openBtns && openBtns.forEach(btn => btn.addEventListener('click', showModal));
+            closeBtn && closeBtn.addEventListener('click', hideModal);
+            cancelBtn && cancelBtn.addEventListener('click', hideModal);
+            overlay && overlay.addEventListener('click', hideModal);
+
+            form && form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const name = (document.getElementById('donorName').value || '').trim();
+                const amount = (document.getElementById('donationAmount').value || '').trim();
+                const time = (document.getElementById('donationTime').value || '').trim();
+                const note = (document.getElementById('donationNote').value || '').trim();
+
+                // Basic validation
+                if (!name) {
+                    alert('Silakan isi nama Anda.');
+                    return;
+                }
+                if (!amount || Number(amount) <= 0) {
+                    alert('Silakan masukkan jumlah donasi yang valid.');
+                    return;
+                }
+                if (!time) {
+                    alert('Silakan pilih waktu donasi.');
+                    return;
+                }
+
+                // Format time to readable string
+                let timeStr = time;
+                try {
+                    const dt = new Date(time);
+                    if (!isNaN(dt)) {
+                        timeStr = dt.toLocaleString();
+                    }
+                } catch (err) {/* ignore */ }
+
+                // Format amount with thousand separators
+                const formattedAmount = Number(amount).toLocaleString('id-ID');
+
+                let message = `Halo, saya sudah melakukan donasi untuk Program 1.000 Beasiswa Beauty Artist.%0A%0A` +
+                    `Nama: ${encodeURIComponent(name)}%0A` +
+                    `Jumlah: Rp ${encodeURIComponent(formattedAmount)}%0A` +
+                    `Waktu: ${encodeURIComponent(timeStr)}%0A`;
+
+                if (note) {
+                    message += `Catatan: ${encodeURIComponent(note)}%0A`;
+                }
+
+                message += `%0ABerikut bukti transfernya:`;
+
+                const waNumber = '6282125074700';
+                const waLink = `https://wa.me/${waNumber}?text=${message}`;
+
+                // Close modal and open WhatsApp in new tab/window
+                hideModal();
+                window.open(waLink, '_blank');
+            });
+        })();
+    </script>
     <x-footer />
 </x-layout>

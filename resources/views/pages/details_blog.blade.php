@@ -192,5 +192,44 @@
             </div>
         </section>
     </main>
+
+    <script>
+        // Share functionality
+        function copyLink() {
+            alert('Link telah disalin!');
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                // Show success message
+                const button = event.target.closest('button');
+                const originalHTML = button.innerHTML;
+                button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-green-600"><path d="M20 6 9 17l-5-5"/></svg>';
+
+                setTimeout(() => {
+                    button.innerHTML = originalHTML;
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy link: ', err);
+            });
+        }
+
+        function shareToFacebook() {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent(document.title);
+            const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&quote=${title}`;
+            window.open(shareUrl, '_blank', 'width=600,height=400');
+        }
+
+        function shareToInstagram() {
+            // Instagram doesn't have direct URL sharing, so we'll copy the link and show a message
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Link telah disalin! Anda dapat membagikannya di Instagram Stories atau Bio.');
+            }).catch(err => {
+                console.error('Failed to copy link: ', err);
+                alert('Silakan salin link secara manual: ' + url);
+            });
+        }
+    </script>
+
     <x-footer />
 </x-layout>
