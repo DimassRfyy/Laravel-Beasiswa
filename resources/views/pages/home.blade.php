@@ -5,101 +5,142 @@
     <x-navbar />
 
     <main>
-        <section id="home" class="relative py-16 md:py-24 overflow-hidden lg:px-12">
-            <div class="absolute inset-0 z-0">
-                <img src="assets/images/thumbnails/bg-nailart.avif" alt="Beauty background"
-                    class="w-full h-full object-cover opacity-10" />
-                <div class="absolute inset-0 bg-gradient-to-r from-pink-50 to-white opacity-90">
-                </div>
-            </div>
-            <div class="container mx-auto px-4 relative z-10">
-                <div class="flex flex-col md:flex-row items-center">
-                    <div class="md:w-1/2 mb-10 md:mb-0">
-                        <div class="animate-fade-in-up js-animate">
-                            <div
-                                class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
-                                Program Beasiswa 2026</div>
-                            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-6 leading-tight">
-                                1000 Beasiswa <br />
-                                <span class="text-gray-800">Beauty Artist</span>
-                            </h1>
-                            <p class="text-xl text-gray-700 mb-8 max-w-lg">Pelatihan menjadi Beauty Artist Sebagai Jalan
-                                Menuju Kemandirian Ekonomi Perempuan.</p>
-                            <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="https://bit.ly/Pendaftaran1000BeasiswaBeautyArtist"
-                                    class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
-                                    Daftar Sekarang
-                                </a>
+        <div id="hero-carousel" class="relative overflow-hidden">
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <section id="home" class="relative py-16 md:py-24 overflow-hidden lg:px-16">
+                    <div class="absolute inset-0 z-0">
+                        <img src="assets/images/thumbnails/bg-nailart.avif" alt="Beauty background"
+                            class="w-full h-full object-cover opacity-10" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-pink-50 to-white opacity-90">
+                        </div>
+                    </div>
+                    <div class="container mx-auto px-4 relative z-10">
+                        <div class="flex flex-col md:flex-row items-center">
+                            <div class="md:w-1/2 mb-10 md:mb-0">
+                                <div class="animate-fade-in-up js-animate">
+                                    <div
+                                        class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-6">
+                                        Program Beasiswa 2026</div>
+                                    <h1
+                                        class="text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-6 leading-tight">
+                                        1000 Beasiswa <br />
+                                        <span class="text-gray-800">Beauty Artist</span>
+                                    </h1>
+                                    <p class="text-xl text-gray-700 mb-8 max-w-lg">Pelatihan menjadi Beauty Artist
+                                        Sebagai Jalan
+                                        Menuju Kemandirian Ekonomi Perempuan.</p>
+                                    <div class="flex flex-col sm:flex-row gap-4">
+                                        <a href="https://bit.ly/Pendaftaran1000BeasiswaBeautyArtist"
+                                            class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
+                                            Daftar Sekarang
+                                        </a>
 
-                                <a href="/donation"
-                                    class="hidden sm:inline-flex items-center justify-center bg-pink-600 text-white font-semibold px-6 py-3 rounded-full border border-pink-200 hover:bg-pink-600 hover:text-white transform hover:scale-105 transition duration-300">
-                                    Donasi
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="ml-2">
-                                        <path
-                                            d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8L12 21l7.8-7.6a5.5 5.5 0 0 0 .0-7.8z" />
-                                    </svg>
-                                </a>
+                                        <a href="/donation"
+                                            class="hidden sm:inline-flex items-center justify-center bg-pink-600 text-white font-semibold px-6 py-3 rounded-full border border-pink-200 hover:bg-pink-600 hover:text-white transform hover:scale-105 transition duration-300">
+                                            Donasi
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+                                                <path
+                                                    d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8L12 21l7.8-7.6a5.5 5.5 0 0 0 .0-7.8z" />
+                                            </svg>
+                                        </a>
 
-                                <a href="/sponsorship"
-                                    class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
-                                    Sponsorship
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-chevron-right ml-2">
-                                        <path d="m9 18 6-6-6-6" />
-                                    </svg>
-                                </a>
+                                        <a href="/sponsorship"
+                                            class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
+                                            Sponsorship
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-chevron-right ml-2">
+                                                <path d="m9 18 6-6-6-6" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2">
+                                <div class="grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-lg xl:max-w-xl">
+                                    <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                        <img src="assets/images/thumbnails/banner-potrait.jpg" alt="Beauty student 1"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                        <img src="assets/images/thumbnails/banner4.jpg" alt="Beauty student 2"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
+                                        <img src="assets/images/thumbnails/banner5.jpg" alt="Beauty student 3"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                    <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
+                                        <img src="assets/images/thumbnails/banner1.jpg" alt="Beauty student 4"
+                                            class="w-full h-full object-cover" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="md:w-1/2">
-                        <div class="grid grid-cols-2 gap-4 max-w-md mx-auto lg:max-w-lg xl:max-w-xl">
-                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
-                                <img src="assets/images/thumbnails/banner-potrait.jpg" alt="Beauty student 1"
-                                    class="w-full h-full object-cover" />
-                            </div>
-                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
-                                <img src="assets/images/thumbnails/banner4.jpg" alt="Beauty student 2"
-                                    class="w-full h-full object-cover" />
-                            </div>
-                            <div class="rounded-lg overflow-hidden shadow-md h-36 lg:h-40 xl:h-44">
-                                <img src="assets/images/thumbnails/banner5.jpg" alt="Beauty student 3"
-                                    class="w-full h-full object-cover" />
-                            </div>
-                            <div class="rounded-lg overflow-hidden shadow-md mt-8 h-36 lg:h-40 xl:h-44">
-                                <img src="assets/images/thumbnails/banner1.jpg" alt="Beauty student 4"
-                                    class="w-full h-full object-cover" />
-                            </div>
+                    <div class="absolute top-20 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-20 animate-pulse">
+                    </div>
+                </section>
+            </div>
+
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 z-0">
+                    <div class="relative h-full w-full">
+                        <div class="absolute inset-0 opacity-100 transition-opacity duration-1000">
+                            <img src="assets/images/thumbnails/banner-slider1.png" alt="Slide 1"
+                                class="w-full h-full object-cover" />
                         </div>
                     </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-20"></div>
+                    <div class="absolute inset-0 bg-pink-600 opacity-10 mix-blend-multiply"></div>
                 </div>
-            </div>
-            <div class="absolute top-20 left-10 w-20 h-20 bg-pink-200 rounded-full opacity-20 animate-pulse"></div>
-        </section>
 
-        <section class="py-10 bg-white border-t border-b border-pink-100">
-            <div class="container mx-auto px-4">
-                <div class="text-center mb-8">
-                    <p class="text-gray-500 text-sm uppercase tracking-wider">Bekerjasama dengan</p>
-                </div>
-                <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-                    <div class="">
-                        <img src="assets/images/logos/c.jpg" alt="Partner 1"
-                            class="h-16 md:h-28 w-auto object-contain" />
-                    </div>
-                    <div class="">
-                        <img src="assets/images/logos/e.jpg" alt="Partner 2"
-                            class="h-16 md:h-36 w-auto object-contain" />
-                    </div>
-                    <div class="">
-                        <img src="assets/images/logos/logo.png" alt="Partner 3"
-                            class="h-16 md:h-28 w-auto object-contain" />
+                <div class="absolute inset-0 flex items-center justify-center z-20 px-4">
+                    <div class="rounded-md text-center text-white p-6 md:p-8 max-w-3xl"
+                        style="background-color: rgba(153,0,85,0.70);">
+                        <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                            Bersama Mewujudkan <span class="block">Perempuan Mandiri</span>
+                        </h2>
+                        <p class="mt-4 text-sm md:text-base lg:text-lg text-white/95 leading-relaxed">
+                            Lebih dari 11,5 juta perempuan Indonesia menjadi tulang punggung keluarga, sementara 5,7
+                            juta
+                            lainnya belum memiliki akses pendidikan atau pelatihan yang layak. Melalui Program 1.000
+                            Beasiswa Beauty Artist, Wirausaha Muda Mandiri membuka jalan bagi mereka untuk memperoleh
+                            keterampilan, kemandirian ekonomi, dan masa depan yang lebih berdaya.
+                        </p>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- Indicators -->
+            <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-30 flex gap-2">
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-white/50" data-slide="0"
+                    aria-label="Slide 1"></button>
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-white/30" data-slide="1"
+                    aria-label="Slide 2"></button>
+            </div>
+
+            <!-- Controls -->
+            <button id="carousel-prev"
+                class="absolute left-4 top-1/2 transform -translate-y-1/2 z-30 bg-white/20 hover:bg-white/40 text-white rounded-full w-10 h-10 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="text-white">
+                    <path d="m15 18-6-6 6-6" />
+                </svg>
+            </button>
+            <button id="carousel-next"
+                class="absolute right-4 top-1/2 transform -translate-y-1/2 z-30 bg-white/20 hover:bg-white/40 text-white rounded-full w-10 h-10 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="text-white">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
+            </button>
+        </div>
 
         <section id="about" class="py-20 md:py-28 bg-white lg:px-4">
             <div class="container mx-auto px-4">
@@ -1243,5 +1284,67 @@
             </div>
         </section>
     </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const carousel = document.getElementById('hero-carousel');
+            if (!carousel) return;
+            const slides = carousel.querySelectorAll('.slide');
+            const indicators = carousel.querySelectorAll('.carousel-indicator');
+            const prevBtn = document.getElementById('carousel-prev');
+            const nextBtn = document.getElementById('carousel-next');
+            let current = 0;
+            let interval = null;
+
+            // Ensure carousel container reserves height equal to slide 1 content
+            function adjustCarouselHeight() {
+                try {
+                    const firstSection = slides[0].querySelector('#home') || slides[0].firstElementChild;
+                    if (firstSection) {
+                        const rect = firstSection.getBoundingClientRect();
+                        carousel.style.minHeight = rect.height + 'px';
+                    }
+                } catch (e) {
+                    // ignore
+                }
+            }
+
+            // adjust on load and resize
+            adjustCarouselHeight();
+            window.addEventListener('resize', function () { adjustCarouselHeight(); });
+
+            function show(idx) {
+                slides.forEach((s, i) => {
+                    s.classList.toggle('opacity-100', i === idx);
+                    s.classList.toggle('opacity-0', i !== idx);
+                    s.style.zIndex = i === idx ? '20' : '10';
+                });
+                indicators.forEach((b, i) => {
+                    b.classList.toggle('bg-white/90', i === idx);
+                    b.classList.toggle('bg-white/30', i !== idx);
+                });
+                current = idx;
+            }
+
+            function next() { show((current + 1) % slides.length); }
+            function prev() { show((current - 1 + slides.length) % slides.length); }
+
+            // Start
+            show(0);
+            interval = setInterval(next, 7000);
+
+            // Controls
+            if (nextBtn) nextBtn.addEventListener('click', () => { clearInterval(interval); next(); interval = setInterval(next, 5000); });
+            if (prevBtn) prevBtn.addEventListener('click', () => { clearInterval(interval); prev(); interval = setInterval(next, 5000); });
+
+            indicators.forEach((btn) => btn.addEventListener('click', (e) => {
+                const idx = Number(btn.dataset.slide);
+                if (Number.isInteger(idx)) {
+                    clearInterval(interval);
+                    show(idx);
+                    interval = setInterval(next, 7000);
+                }
+            }));
+        });
+    </script>
     <x-footer />
 </x-layout>
