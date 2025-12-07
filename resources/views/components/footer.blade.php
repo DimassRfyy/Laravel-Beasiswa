@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
             <div class="col-span-1 md:col-span-2">
                 <div class="flex items-center mb-6">
-                    <img src="{{ asset('assets/images/logos/wmm-logo-horizontal.png') }}" alt="SalonKita Logo"
+                    <img src="{{ asset('assets/images/logos/wmm-logo-new.png') }}" alt="SalonKita Logo"
                         class="h-10 w-auto mr-3" />
                 </div>
                 <p class="mb-4 text-gray-400 max-w-md">Program beasiswa untuk 1000 perempuan Indonesia di industri
@@ -113,7 +113,7 @@
         </div>
 
         <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; <span id="current-year"></span> Yayasan Wirausaha Muda Mandiri (WMM).</p>
+            <p>&copy; <span id="current-year"></span> Yayasan Wanita Muda Mandiri (WMM).</p>
         </div>
     </div>
 </footer>

@@ -152,7 +152,7 @@
                                 class="inline-block px-4 py-1 bg-pink-100 text-pink-600 rounded-full text-sm font-medium mb-4">
                                 Tentang Partnership</div>
                             <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-                                Jalin Kemitraan, Ciptakan Dampak Bersama <span class="text-pink-600">Yayasan Wirausaha
+                                Jalin Kemitraan, Ciptakan Dampak Bersama <span class="text-pink-600">Yayasan Wanita
                                     Muda Mandiri</span>
                             </h2>
                             <p class="text-md text-gray-700 mb-8">Melalui kemitraan strategis ini, organisasi Anda

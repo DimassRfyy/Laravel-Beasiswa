@@ -24,10 +24,10 @@
                             <span class="text-pink-600">Sponsorship</span>
                         </h1>
                         <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                            Yayasan Wirausaha Muda Mandiri mengundang Anda untuk menjadi Sponsor Program 1.000 Beasiswa
+                            Yayasan Wanita Muda Mandiri mengundang Anda untuk menjadi Sponsor Program 1.000 Beasiswa
                             Beauty Artist yang merupakan sebuah inisiatif yang membekali perempuan prasejahtera dengan
                             keterampilan kecantikan berbasis
-                            standar industri, membuka peluang kerja, dan menciptakan wirausaha baru.
+                            standar industri, membuka peluang kerja, dan menciptakan Wanita baru.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
                             <a href="#sponsor-packages"

@@ -24,7 +24,7 @@
                             <span class="text-pink-600">Menuju Sukses</span>
                         </h1>
                         <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                            Wirausaha Muda Mandiri Foundation membuka peluang bagi siapa saja yang memiliki kepedulian
+                            Wanita Muda Mandiri Foundation membuka peluang bagi siapa saja yang memiliki kepedulian
                             dan waktu untuk berkontribusi sebagai Mentor Program 1.000 Beasiswa Beauty Artist.
                         </p>
                         <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -32,13 +32,14 @@
                                 class="inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
                                 📝 Isi Form Pendaftaran Mentor
                             </a>
-                            <a href="#mentor-role"
+                            <a href="https://drive.google.com/drive/folders/1FJ2A_C_00ww-oijuz3gSL97PXoWWQ5Im?usp=sharing"
                                 class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
-                                Pelajari Lebih Lanjut
+                                Guidebook Mentor
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" class="lucide lucide-chevron-right ml-2">
-                                    <path d="m9 18 6-6-6-6" />
+                                    strokeLinejoin="round" class="lucide lucide-book-open ml-2">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                                 </svg>
                             </a>
                         </div>

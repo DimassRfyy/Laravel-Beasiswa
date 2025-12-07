@@ -28,6 +28,44 @@
                                 sekolah karena kehilangan kesempatan. Program 1.000 Beasiswa Beauty Artist memberi
                                 keterampilan, percaya diri, dan peluang kerja.
                             </p>
+
+                            <!-- Bank Transfer Information - Grid 2 -->
+                            <div class="grid grid-cols-2 gap-3 mb-8 max-w-2xl mx-auto lg:mx-0">
+                                <!-- Bank Mandiri -->
+                                <div class="bg-white border border-pink-300 rounded-lg p-4 shadow-sm">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <img src="assets/images/logos/mandiri.png" alt="Bank Mandiri"
+                                            class="h-4 w-auto object-contain" />
+                                        <h4 class="font-bold text-sm text-gray-800">Bank Mandiri</h4>
+                                    </div>
+                                    <div class="space-y-1 text-xs">
+                                        <div>
+                                            <p class="text-gray-800 font-extrabold text-sm">137-00-2676106-0</p>
+                                        </div>
+                                        <div>
+                                            <p class="text-gray-700 text-xs truncate">Yayasan Wanita Muda Mandiri</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Bank Mandiri for Global -->
+                                <div class="bg-white border border-pink-300 rounded-lg p-4 shadow-sm">
+                                    <div class="flex items-center gap-2 mb-2">
+                                        <img src="assets/images/logos/mandiri.png" alt="Bank Mandiri"
+                                            class="h-4 w-auto object-contain" />
+                                        <h4 class="font-bold text-sm text-gray-800">Mandiri for Global</h4>
+                                    </div>
+                                    <div class="space-y-1 text-xs">
+                                        <div>
+                                            <p class="text-gray-800 font-extrabold text-sm">137-00-2676108-6</p>
+                                        </div>
+                                        <div>
+                                            <p class="text-gray-700 text-xs truncate">Yayasan Wanita Muda Mandiri</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                                 <button type="button"
                                     class="openDonationModal inline-block bg-pink-600 text-white font-semibold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">Kirim
@@ -45,11 +83,12 @@
                         </div>
                     </div>
 
-                    <!-- Right: QR Image only -->
                     <div class="w-full lg:w-1/2 flex justify-center items-center">
-                        <img src="assets/images/logos/new-qr.jpg"
-                            alt="QR code untuk donasi Program 1.000 Beasiswa Beauty Artist" loading="lazy"
-                            class="w-64 sm:w-80 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain" />
+                        <div class="flex justify-center">
+                            <img src="assets/images/logos/new-qr.jpg"
+                                alt="QR code untuk donasi Program 1.000 Beasiswa Beauty Artist" loading="lazy"
+                                class="w-64 sm:w-80 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain" />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,38 @@
 
     <main>
         <div id="hero-carousel" class="relative overflow-hidden">
+
+            <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
+                <div class="absolute inset-0 z-0">
+                    <div class="relative h-full w-full">
+                        <div class="absolute inset-0 opacity-100 transition-opacity duration-1000">
+                            <img src="assets/images/thumbnails/banner-slider1.png" alt="Slide 1"
+                                class="w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-20"></div>
+                    <div class="absolute inset-0 bg-pink-600 opacity-10 mix-blend-multiply"></div>
+                </div>
+
+                <div class="absolute inset-0 flex items-center justify-center z-20 px-4">
+                    <div class="rounded-md text-center text-white p-6 md:p-8 max-w-3xl"
+                        style="background-color: rgba(153,0,85,0.70);">
+                        <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
+                            Bersama Mewujudkan <span class="block">Perempuan Mandiri</span>
+                        </h2>
+                        <p class="mt-4 text-sm md:text-base lg:text-lg text-white/95 leading-relaxed">
+                            Lebih dari <span class="font-extrabold">11,5 juta</span> perempuan Indonesia menjadi tulang
+                            punggung keluarga, <span class="font-extrabold">23,85 Juta</span>
+                            Penduduk Indonesia Hidup di Bawah Garis Kemiskinan, sementara <span
+                                class="font-extrabold">5,7 juta</span> lainnya belum
+                            memiliki akses pendidikan dan pelatihan yang layak. Melalui Program 1.000 Beasiswa Beauty
+                            Artist, Wanita Muda Mandiri membuka jalan bagi mereka untuk memperoleh keterampilan,
+                            kemandirian ekonomi, dan masa depan yang lebih berdaya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
                 <section id="home" class="relative py-16 md:py-24 overflow-hidden lg:px-16">
                     <div class="absolute inset-0 z-0">
@@ -87,32 +119,156 @@
             </div>
 
             <div class="slide absolute inset-0 opacity-0 transition-opacity duration-1000">
-                <div class="absolute inset-0 z-0">
-                    <div class="relative h-full w-full">
-                        <div class="absolute inset-0 opacity-100 transition-opacity duration-1000">
-                            <img src="assets/images/thumbnails/banner-slider1.png" alt="Slide 1"
-                                class="w-full h-full object-cover" />
+                <section class="relative py-16 md:py-24 overflow-hidden lg:px-16">
+                    <div class="absolute inset-0 z-0">
+                        <img src="assets/images/thumbnails/bg-nailart.avif" alt="Mentor background"
+                            class="w-full h-full object-cover opacity-10" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-pink-50 to-white opacity-90"></div>
+                    </div>
+                    <div class="container mx-auto px-4 relative z-10">
+                        <div class="flex flex-col md:flex-row items-center">
+                            <div class="md:w-1/2 mb-10 md:mb-0 w-full">
+                                <div class="animate-fade-in-up js-animate">
+                                    <h2
+                                        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-pink-600 mb-4 md:mb-6 leading-tight">
+                                        Empower Beauty <br /> Talents
+                                    </h2>
+                                    <p class="text-base sm:text-lg md:text-xl text-gray-700 mb-6 md:mb-8 max-w-lg">
+                                        Jadilah Mentor & Coach yang menginspirasi transformasi, membentuk generasi
+                                        pemimpin baru di industri kecantikan, dan menciptakan dampak nyata bagi
+                                        perjalanan karier para penerima beasiswa.</p>
+
+                                    <!-- Mobile Layout: Simple Grid -->
+                                    <div class="grid grid-cols-2 gap-4 md:hidden max-w-sm mx-auto mb-6 md:mb-0">
+                                        <div class="rounded-2xl overflow-hidden shadow-lg">
+                                            <div class="relative h-48">
+                                                <img src="assets/images/thumbnails/banner4.jpg" alt="Mentor portrait"
+                                                    class="w-full h-full object-cover" />
+                                                <div
+                                                    class="absolute inset-0 bg-gradient-to-t from-pink-600/80 via-pink-600/10 to-transparent">
+                                                </div>
+                                                <div class="absolute bottom-3 left-3 text-white">
+                                                    <span
+                                                        class="inline-flex items-center px-2 py-1 text-xs font-bold rounded-full bg-white/30 backdrop-blur-md shadow-lg border border-white/50">
+                                                        ⭐ Mentor
+                                                    </span>
+                                                    <p class="mt-2 text-sm font-bold drop-shadow-lg">Hands-on</p>
+                                                    <p class="text-xs font-semibold opacity-90">Masterclass</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rounded-2xl overflow-hidden shadow-lg">
+                                            <div class="relative h-48">
+                                                <img src="assets/images/thumbnails/coach1.png" alt="Coach portrait"
+                                                    class="w-full h-full object-cover" />
+                                                <div
+                                                    class="absolute inset-0 bg-gradient-to-t from-purple-600/80 via-purple-600/10 to-transparent">
+                                                </div>
+                                                <div class="absolute bottom-3 left-3 text-white">
+                                                    <span
+                                                        class="inline-flex items-center px-2 py-1 text-xs font-bold rounded-full bg-white/30 backdrop-blur-md shadow-lg border border-white/50">
+                                                        💎 Coach
+                                                    </span>
+                                                    <p class="mt-2 text-sm font-bold drop-shadow-lg">Expert</p>
+                                                    <p class="text-xs font-semibold opacity-90">Guidance</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-col sm:flex-row gap-4">
+                                        <a href="/mentor"
+                                            class="inline-block bg-pink-600 text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 text-center shadow-lg">
+                                            Join as Mentor
+                                        </a>
+
+                                        <a href="/coach"
+                                            class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
+                                            Join as Coach
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-chevron-right ml-2">
+                                                <path d="m9 18 6-6-6-6" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:w-1/2 w-full">
+                                <!-- Desktop Layout: Overlapping Cards -->
+                                <div class="relative max-w-lg mx-auto hidden md:block">
+                                    <div class="relative h-[28rem] lg:h-[32rem]">
+                                        <!-- Card 1 - Left Card (Slightly Higher) -->
+                                        <div
+                                            class="absolute left-0 top-0 w-[48%] z-20 transform hover:-translate-y-3 transition-all duration-500">
+                                            <div
+                                                class="group relative rounded-3xl overflow-hidden shadow-2xl border-2 border-white">
+                                                <div class="relative h-[24rem] lg:h-[28rem]">
+                                                    <img src="assets/images/thumbnails/banner4.jpg"
+                                                        alt="Mentor portrait"
+                                                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                                                    <div
+                                                        class="absolute inset-0 bg-gradient-to-t from-pink-600/80 via-pink-600/10 to-transparent group-hover:from-pink-600/90 transition-all duration-500">
+                                                    </div>
+                                                    <div
+                                                        class="absolute bottom-4 lg:bottom-5 left-4 lg:left-5 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                                        <span
+                                                            class="inline-flex items-center px-2.5 lg:px-3 py-1 lg:py-1.5 text-xs font-bold rounded-full bg-white/30 backdrop-blur-md shadow-lg border border-white/50">
+                                                            ⭐ Mentor
+                                                        </span>
+                                                        <p
+                                                            class="mt-2 lg:mt-3 text-lg lg:text-xl font-bold drop-shadow-lg">
+                                                            Hands-on</p>
+                                                        <p class="text-base lg:text-lg font-semibold opacity-90">
+                                                            Masterclass</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Card 2 - Right Card (Lower Position) -->
+                                        <div
+                                            class="absolute right-0 top-12 lg:top-16 w-[48%] z-10 transform hover:-translate-y-3 hover:z-30 transition-all duration-500">
+                                            <div
+                                                class="group relative rounded-3xl overflow-hidden shadow-2xl border-2 border-white">
+                                                <div class="relative h-[24rem] lg:h-[28rem]">
+                                                    <img src="assets/images/thumbnails/coach1.png" alt="Coach portrait"
+                                                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                                                    <div
+                                                        class="absolute inset-0 bg-gradient-to-t from-purple-600/80 via-purple-600/10 to-transparent group-hover:from-purple-600/90 transition-all duration-500">
+                                                    </div>
+                                                    <div
+                                                        class="absolute bottom-4 lg:bottom-5 left-4 lg:left-5 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                                        <span
+                                                            class="inline-flex items-center px-2.5 lg:px-3 py-1 lg:py-1.5 text-xs font-bold rounded-full bg-white/30 backdrop-blur-md shadow-lg border border-white/50">
+                                                            💎 Coach
+                                                        </span>
+                                                        <p
+                                                            class="mt-2 lg:mt-3 text-lg lg:text-xl font-bold drop-shadow-lg">
+                                                            Expert</p>
+                                                        <p class="text-base lg:text-lg font-semibold opacity-90">
+                                                            Guidance</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Decorative floating elements -->
+                                        <div
+                                            class="absolute -top-4 right-12 w-12 h-12 lg:w-16 lg:h-16 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full opacity-40 blur-xl animate-pulse">
+                                        </div>
+                                        <div class="absolute bottom-8 -left-4 w-16 h-16 lg:w-20 lg:h-20 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full opacity-30 blur-xl animate-pulse"
+                                            style="animation-delay: 1.5s;"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-20"></div>
-                    <div class="absolute inset-0 bg-pink-600 opacity-10 mix-blend-multiply"></div>
-                </div>
-
-                <div class="absolute inset-0 flex items-center justify-center z-20 px-4">
-                    <div class="rounded-md text-center text-white p-6 md:p-8 max-w-3xl"
-                        style="background-color: rgba(153,0,85,0.70);">
-                        <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                            Bersama Mewujudkan <span class="block">Perempuan Mandiri</span>
-                        </h2>
-                        <p class="mt-4 text-sm md:text-base lg:text-lg text-white/95 leading-relaxed">
-                            Lebih dari 11,5 juta perempuan Indonesia menjadi tulang punggung keluarga, sementara 5,7
-                            juta
-                            lainnya belum memiliki akses pendidikan atau pelatihan yang layak. Melalui Program 1.000
-                            Beasiswa Beauty Artist, Wirausaha Muda Mandiri membuka jalan bagi mereka untuk memperoleh
-                            keterampilan, kemandirian ekonomi, dan masa depan yang lebih berdaya.
-                        </p>
+                    <div
+                        class="absolute top-16 left-8 w-16 h-16 bg-pink-200 rounded-full opacity-20 animate-pulse hidden md:block">
                     </div>
-                </div>
+                </section>
             </div>
 
             <!-- Indicators -->
@@ -121,6 +277,8 @@
                     aria-label="Slide 1"></button>
                 <button class="carousel-indicator w-3 h-3 rounded-full bg-white/30" data-slide="1"
                     aria-label="Slide 2"></button>
+                <button class="carousel-indicator w-3 h-3 rounded-full bg-white/30" data-slide="2"
+                    aria-label="Slide 3"></button>
             </div>
 
             <!-- Controls -->
@@ -176,7 +334,7 @@
                                 Program Beasiswa <span class="text-pink-600">Beauty Artist</span>
                             </h2>
                             <p class="text-lg text-gray-700 mb-6">SalonKita.id bekerjasama dengan Zoe Beauty School dan
-                                Yayasan Wirausaha Muda Mandiri, memberikan beasiswa kepada 1000 perempuan Indonesia
+                                Yayasan Wanita Muda Mandiri, memberikan beasiswa kepada 1000 perempuan Indonesia
                                 untuk berkarir di beauty Industry.</p>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                                 <div
@@ -1253,13 +1411,14 @@
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                                     </svg>
                                 </a>
-                                <a href="/partnership"
+                                <a href="https://drive.google.com/drive/folders/1FJ2A_C_00ww-oijuz3gSL97PXoWWQ5Im?usp=sharing"
                                     class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
-                                    Jadi Partner
+                                    Guidebook Peserta
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-chevron-right ml-2">
-                                        <path d="m9 18 6-6-6-6" />
+                                        fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                        strokeLinejoin="round" class="lucide lucide-book-open ml-2">
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                                     </svg>
                                 </a>
                             </div>
@@ -1288,21 +1447,24 @@
         document.addEventListener('DOMContentLoaded', function () {
             const carousel = document.getElementById('hero-carousel');
             if (!carousel) return;
-            const slides = carousel.querySelectorAll('.slide');
-            const indicators = carousel.querySelectorAll('.carousel-indicator');
+
+            const slides = Array.from(carousel.querySelectorAll('.slide'));
+            const indicators = Array.from(carousel.querySelectorAll('.carousel-indicator'));
             const prevBtn = document.getElementById('carousel-prev');
             const nextBtn = document.getElementById('carousel-next');
+
             let current = 0;
             let interval = null;
+            const AUTO_MS = 5000;
 
-            // Ensure carousel container reserves height equal to slide 1 content
+            // Ensure carousel container reserves the tallest slide height
             function adjustCarouselHeight() {
                 try {
-                    const firstSection = slides[0].querySelector('#home') || slides[0].firstElementChild;
-                    if (firstSection) {
-                        const rect = firstSection.getBoundingClientRect();
-                        carousel.style.minHeight = rect.height + 'px';
-                    }
+                    const maxHeight = slides.reduce((h, slide) => {
+                        const content = slide.firstElementChild;
+                        return content ? Math.max(h, content.getBoundingClientRect().height) : h;
+                    }, 0);
+                    if (maxHeight) carousel.style.minHeight = maxHeight + 'px';
                 } catch (e) {
                     // ignore
                 }
@@ -1310,38 +1472,44 @@
 
             // adjust on load and resize
             adjustCarouselHeight();
-            window.addEventListener('resize', function () { adjustCarouselHeight(); });
+            window.addEventListener('resize', adjustCarouselHeight);
 
             function show(idx) {
+                const safeIdx = ((idx % slides.length) + slides.length) % slides.length;
                 slides.forEach((s, i) => {
-                    s.classList.toggle('opacity-100', i === idx);
-                    s.classList.toggle('opacity-0', i !== idx);
-                    s.style.zIndex = i === idx ? '20' : '10';
+                    s.classList.toggle('opacity-100', i === safeIdx);
+                    s.classList.toggle('opacity-0', i !== safeIdx);
+                    s.style.zIndex = i === safeIdx ? '20' : '10';
                 });
                 indicators.forEach((b, i) => {
-                    b.classList.toggle('bg-white/90', i === idx);
-                    b.classList.toggle('bg-white/30', i !== idx);
+                    b.classList.toggle('bg-white/90', i === safeIdx);
+                    b.classList.toggle('bg-white/30', i !== safeIdx);
                 });
-                current = idx;
+                current = safeIdx;
+                adjustCarouselHeight();
             }
 
-            function next() { show((current + 1) % slides.length); }
-            function prev() { show((current - 1 + slides.length) % slides.length); }
+            function next() { show(current + 1); }
+            function prev() { show(current - 1); }
+
+            function restartInterval() {
+                if (interval) clearInterval(interval);
+                interval = setInterval(next, AUTO_MS);
+            }
 
             // Start
             show(0);
-            interval = setInterval(next, 7000);
+            restartInterval();
 
             // Controls
-            if (nextBtn) nextBtn.addEventListener('click', () => { clearInterval(interval); next(); interval = setInterval(next, 5000); });
-            if (prevBtn) prevBtn.addEventListener('click', () => { clearInterval(interval); prev(); interval = setInterval(next, 5000); });
+            if (nextBtn) nextBtn.addEventListener('click', () => { next(); restartInterval(); });
+            if (prevBtn) prevBtn.addEventListener('click', () => { prev(); restartInterval(); });
 
-            indicators.forEach((btn) => btn.addEventListener('click', (e) => {
+            indicators.forEach((btn) => btn.addEventListener('click', () => {
                 const idx = Number(btn.dataset.slide);
                 if (Number.isInteger(idx)) {
-                    clearInterval(interval);
                     show(idx);
-                    interval = setInterval(next, 7000);
+                    restartInterval();
                 }
             }));
         });
