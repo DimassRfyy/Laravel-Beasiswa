@@ -326,7 +326,7 @@
                                         manfaat eksklusif.
                                     </p>
                                 </div>
-                                <a href="#"
+                                <a href="https://drive.google.com/file/d/1IIX5sZYvq_j3x-cwCmDgNiYUzc9gwI2S/view?usp=drive_link"
                                     class="inline-flex items-center bg-pink-600 text-white font-bold px-8 py-4 rounded-full hover:bg-pink-700 transform hover:scale-105 transition duration-300 shadow-lg w-full justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"

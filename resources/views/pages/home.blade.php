@@ -23,7 +23,7 @@
                     <div class="rounded-md text-center text-white p-6 md:p-8 max-w-3xl"
                         style="background-color: rgba(153,0,85,0.70);">
                         <h2 class="text-2xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                            Bersama Mewujudkan <span class="block">Perempuan Mandiri</span>
+                            Tahukah Kamu?
                         </h2>
                         <p class="mt-4 text-sm md:text-base lg:text-lg text-white/95 leading-relaxed">
                             Lebih dari <span class="font-extrabold">11,5 juta</span> perempuan Indonesia menjadi tulang
@@ -1411,7 +1411,7 @@
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                                     </svg>
                                 </a>
-                                <a href="https://drive.google.com/drive/folders/1FJ2A_C_00ww-oijuz3gSL97PXoWWQ5Im?usp=sharing"
+                                <a href="https://drive.google.com/file/d/1kHsP7bP6-MwlmloUhuY0qeN3YZx9ispA/view?usp=drive_link"
                                     class="inline-flex items-center justify-center bg-white text-pink-600 font-semibold px-8 py-4 rounded-full border border-pink-200 hover:border-pink-600 transition duration-300 text-center">
                                     Guidebook Peserta
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
